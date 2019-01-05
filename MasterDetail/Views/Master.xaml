@@ -4,9 +4,9 @@
              x:Class="MasterDetail.Master"
              Title="☰">
              
-    <StackLayout Orientation="Vertical" Padding="10,70" Spacing="4">
+    <StackLayout Orientation="Vertical" Padding="10,30" Spacing="4">
        
-        
+            <Image Source="logo.png" VerticalOptions="Start" Aspect="AspectFit" Margin="0,3,0,0"></Image>
             <Button Text="Mis Turnos" x:Name="btnMisTurnos" Clicked="btnMisTurnos_Clicked" BackgroundColor="orange" TextColor="White" HeightRequest="50" VerticalOptions="Start" Grid.Row="3"/>
             <Button Text="Lista de Turnos" x:Name="btnListaTurnos" Clicked="btnListaTurnos_Clicked" BackgroundColor="orange" TextColor="White" HeightRequest="50" VerticalOptions="Start" Grid.Row="3"/>
             <Button Text="Mi Perfil" x:Name="btnMiPerfil" Clicked="btnMiPerfil_Clicked" BackgroundColor="orange" TextColor="White" HeightRequest="50" VerticalOptions="Start" Grid.Row="3"/>

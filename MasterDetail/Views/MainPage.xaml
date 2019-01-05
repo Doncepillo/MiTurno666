@@ -4,5 +4,10 @@
                   xmlns:local="clr-namespace:MasterDetail"
                   x:Class="MasterDetail.MainPage"
                   Title="Menú">
+    <ContentPage.Content>
+   
+            
+        
+    </ContentPage.Content>
                   
 </MasterDetailPage>

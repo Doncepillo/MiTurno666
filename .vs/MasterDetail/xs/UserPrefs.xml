@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{F279D0F5-50E6-4067-A0E0-16F54C617FBA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MasterDetail/Views/Login.xaml.cs">
+    <Files>
+      <File FileName="MasterDetail/Views/MainPage.xaml" Line="8" Column="20" />
+      <File FileName="MasterDetail/Views/Master.xaml" Line="19" Column="1" />
+      <File FileName="MasterDetail/Views/Detail.xaml" Line="10" Column="1" />
+      <File FileName="MasterDetail/Views/MainPage.xaml.cs" Line="9" Column="2" />
+      <File FileName="../../Desktop/IntentoMaster-master/Tried1/Tried1/Views/MainPage.xaml" Line="29" Column="19" />
+      <File FileName="MasterDetail/Views/Login.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MasterDetail" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MasterDetail.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9EE579F0-85C8-402F-81C2-7AE91EA6CB6D" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MasterDetail.Android PreferredExecutionTarget="Android.android" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

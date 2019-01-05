@@ -3,7 +3,28 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MasterDetail.Detail"
              Title="Mi Turno">
+        <StackLayout Style="{StaticResource stackLayoutStyle}">
+            <!-- Place new controls here -->
+    
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
 
-    <ContentPage.Content>
-    </ContentPage.Content>
+                <Label Text = "Bienvenido a Miturno.com" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+                <Button Text="Lista de Turnos" Clicked="ListaTurnos" Grid.Row="1" Grid.Column="0"></Button>
+                <Button Text="Mis Turnos" Clicked="MisTurnos" Grid.Row="1" Grid.Column="1"></Button>
+                <Button Text="Mi Perfil" Clicked="MiPerfil" Grid.Row="1" Grid.Column="2"></Button>
+                <Button Text="Mi Rendimiento" Clicked="MiRendimiento" Grid.Row="2" Grid.Column="0"></Button>
+                <Button Text="Mi Notificaciones" Clicked="MisNotificaciones" Grid.Row="2" Grid.Column="1"></Button>
+               
+            </Grid>
+    </StackLayout>
+    
 </ContentPage>
