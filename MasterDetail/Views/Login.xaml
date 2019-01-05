@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetail.Login">
+    <ContentPage.Content>
+    </ContentPage.Content>
+    <ContentPage.Padding>
+
+        <OnPlatform x:TypeArguments="Thickness">
+      
+        </OnPlatform>
+        
+    </ContentPage.Padding>
+    
+    
+    
+    <ContentPage.Content>
+
+        <Grid BackgroundColor="White">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,10,0,0">
+
+               
+                <Image Source="logo.png" VerticalOptions="Start" Margin="0,3,0,0"></Image>
+            </StackLayout>
+            <Grid Grid.Row="1" Margin="20,0,20,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Image Source="" HeightRequest="70" VerticalOptions="End"/>
+                <Entry Grid.Row="1" Placeholder="Correo Electrónico" PlaceholderColor="#bababa" FontSize="16"/>
+                <Entry Grid.Row="2" Placeholder="Contraseña" IsPassword="true" PlaceholderColor="#bababa" FontSize="16"/>
+                <Button Text="Iniciar Sesión" Clicked="Ingresar" BackgroundColor="orange" TextColor="White" 
+                        HeightRequest="50" VerticalOptions="Start" Grid.Row="3"/>
+                
+                
+               
+                
+                <Grid Grid.Row="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    
+      
+                </Grid>
+                <StackLayout Orientation="Horizontal" Grid.Row="6" HorizontalOptions="Center">
+                    <Image Source="" />
+                    <Label Text="Login con Facebook" TextColor="#485992"/>
+                </StackLayout>
+            </Grid>
+            <StackLayout Grid.Row="2" BackgroundColor="#FFFFFF">
+                <Label HeightRequest="1" BackgroundColor="#E3E3E3"/>
+                <Label Text="Registrarse" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+        </Grid>
+        
+        
+        
+    </ContentPage.Content>
+    
+    
+
+</ContentPage>

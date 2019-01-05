@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetail.Views.User.Register">
+   <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                   
+
+                </Grid.RowDefinitions>
+              
+                <Entry x:Name="Email" Placeholder="Email" Grid.Row="5" Grid.Column="0"></Entry>
+                <Entry x:Name="Contraseña" Placeholder="Password" Grid.Row="6" Grid.Column="0"></Entry>
+           
+                    
+                  
+             
+               
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
