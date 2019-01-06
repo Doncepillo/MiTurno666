@@ -10,6 +10,7 @@ namespace MasterDetail
         public Detail()
         {
             InitializeComponent();
+
         }
     }
 }
