@@ -1,6 +1,7 @@
-﻿using System;
+﻿using Modelo;
+using System;
 using System.Collections.Generic;
-
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace MasterDetail
@@ -14,14 +15,19 @@ namespace MasterDetail
 
         private async void BtnMisTurnos_Clicked(object sender, EventArgs e)
         {
+            
+
             App.MasterD.IsPresented = false;
             await App.MasterD.Detail.Navigation.PushAsync(new MisTurnos());
         }
 
         private async void BtnListaTurnos_Clicked(object sender, EventArgs e) 
         {
+
+            string path = "api/turn";
+
             App.MasterD.IsPresented = false;
-            await App.MasterD.Detail.Navigation.PushAsync(new ListaTurnos());
+            await App.MasterD.Detail.Navigation.PushAsync(new ListaTurnos(path));
 
         }
 

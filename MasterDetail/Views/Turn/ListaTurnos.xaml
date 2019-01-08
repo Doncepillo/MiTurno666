@@ -5,7 +5,14 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Lista de Turnos"/>
-            
+            <ListView x:Name="LV_Turnos">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell x:Name="turno"  Text="{Binding WorkingDay}" 
+                                  Detail="{Binding MaximunCap}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

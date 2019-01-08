@@ -22,5 +22,15 @@ namespace MasterDetail.Servicio
                 return JsonConvert.DeserializeObject<EmpaqueModel>(json);
             }
         }
+        public static async Task<List<Turnos>> turnos (string path) {
+
+            using (var httpClient = new HttpClient())
+            {
+                var result = await httpClient.GetAsync($"{BASE}/{path}");
+                var json = await result.Content.ReadAsStringAsync();
+
+                return JsonConvert.DeserializeObject<List<Turnos>>(json);
+            }
+        }
     }
 }

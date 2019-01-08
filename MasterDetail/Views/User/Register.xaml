@@ -22,11 +22,13 @@
               
                 <Entry x:Name="Email" Placeholder="Email" Grid.Row="5" Grid.Column="0"></Entry>
                 <Entry x:Name="Contraseña" Placeholder="Password" Grid.Row="6" Grid.Column="0"></Entry>
-           
-                    
-                  
-             
-               
+                <Entry></Entry>
+                
+
+
+
+
+
             </Grid>
         </StackLayout>
     </ContentPage.Content>

@@ -45,5 +45,11 @@ namespace MasterDetail
             }
             
         }
+
+        private void Btn_Register(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Register());
+
+        }
     }
 }
