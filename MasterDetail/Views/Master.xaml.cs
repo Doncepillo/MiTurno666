@@ -22,12 +22,10 @@ namespace MasterDetail
         }
 
         private async void BtnListaTurnos_Clicked(object sender, EventArgs e) 
-        {
-
-            string path = "api/turn";
+        { 
 
             App.MasterD.IsPresented = false;
-            await App.MasterD.Detail.Navigation.PushAsync(new ListaTurnos(path));
+            await App.MasterD.Detail.Navigation.PushAsync(new ListaTurnos());
 
         }
 

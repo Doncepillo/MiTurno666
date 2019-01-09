@@ -8,12 +8,18 @@ namespace MasterDetail
 {
     public partial class ListaTurnos : ContentPage
     {
-        public ListaTurnos(string path)
+        string path = "api/turn";
+
+        public ListaTurnos()
         {
             InitializeComponent();
-            GrillaTurnosAsync(path);
+            Cargar();
         }
 
+        private void Cargar() {
+
+            GrillaTurnosAsync(path);
+        }
         private async Task GrillaTurnosAsync(string path)
         {
             

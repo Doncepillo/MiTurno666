@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net.Http;
 using System.Threading.Tasks;
 using MasterDetail.Servicio;
 using MasterDetail.Views.User;
@@ -18,30 +19,28 @@ namespace MasterDetail
 
         }
 
-        private void Ingresar(object sender, EventArgs e)
+        private async void Ingresar(object sender, EventArgs e)
         {
             string email = Email.Text.ToString();
             string pass = Pass.Text.ToString();
 
             if (!(email.Equals("") ||pass.Equals("")))
             {
-                
-                string path = "api/Login?email=" + email + "&contra=" +pass ;
-                Task<EmpaqueModel> existe = Service.Login(path);
-                if (existe != null) { 
-                Navigation.PushAsync(new MainPage());
+                EmpaqueModel empaque = new EmpaqueModel() { Email = email, Password = pass };
 
-                }
+                HttpResponseMessage response =  await Service.autenticate("api/User/Authenticate", empaque);
+                if (response.StatusCode != System.Net.HttpStatusCode.NotFound) {
+                    await Navigation.PushAsync(new MainPage()); 
+                } 
                 else
                 {
-                    lblError.IsVisible = true;
-                    lblError.Text = "datos erroneos";
+                    await DisplayAlert("Error de Acceso", "Informacion de usuario no corresponde", "Ok");
+            
                 }
             }
             else
             {
-                lblError.IsVisible = true;
-                lblError.Text = "Ingrese datos";
+                await DisplayAlert("Error de Acceso", "Debe ingresar datos en el formuladio", "Ok");
             }
             
         }

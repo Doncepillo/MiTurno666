@@ -22,6 +22,25 @@ namespace MasterDetail.Servicio
                 return JsonConvert.DeserializeObject<EmpaqueModel>(json);
             }
         }
+        public static async Task<HttpResponseMessage> autenticate(string paht, object objeto)
+        {
+
+            var url = new Uri($"{BASE}/{paht}");
+
+            HttpResponseMessage response;
+
+            using (var httpClient = new HttpClient())
+            { 
+            response = await httpClient.PostAsync(  url, 
+                                                    new StringContent(
+                                                        Newtonsoft.Json.JsonConvert.SerializeObject( objeto ),
+                                                        Encoding.UTF8,
+                                                        "application/json")
+                                                 ); 
+            }
+
+            return response;
+        }
         public static async Task<List<Turnos>> turnos (string path) {
 
             using (var httpClient = new HttpClient())
