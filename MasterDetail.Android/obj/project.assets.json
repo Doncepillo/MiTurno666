@@ -14,6 +14,37 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Xam.Plugin.Iconize/3.4.0.103": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid81/Plugin.Iconize.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid81/Plugin.Iconize.dll": {}
+        }
+      },
+      "Xam.Plugin.Iconize.Material/3.4.0.103": {
+        "type": "package",
+        "dependencies": {
+          "Xam.Plugin.Iconize": "3.4.0.103",
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid81/Plugin.Iconize.Material.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid81/Plugin.Iconize.Material.dll": {}
+        }
+      },
       "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
         "type": "package",
         "dependencies": {
@@ -353,13 +384,40 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "XamarinForms.CardView/1.1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {}
+        }
+      },
+      "XamarinForms.CardView.NetStandard/1.1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203"
+        },
+        "compile": {
+          "lib/netstandard2.0/CardViewNetStandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CardViewNetStandard.dll": {}
+        }
+      },
       "MasterDetail/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "MaterialDesignColors": "1.1.3",
           "Newtonsoft.Json": "12.0.1",
-          "Xamarin.Forms": "3.3.0.967583"
+          "Xam.Plugin.Iconize.Material": "3.4.0.103",
+          "Xamarin.Forms": "3.4.0.1009999",
+          "XamarinForms.CardView": "1.1.1.5",
+          "XamarinForms.CardView.NetStandard": "1.1.1.5"
         },
         "compile": {
           "bin/placeholder/MasterDetail.dll": {}
@@ -419,6 +477,60 @@
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "newtonsoft.json.12.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec"
+      ]
+    },
+    "Xam.Plugin.Iconize/3.4.0.103": {
+      "sha512": "on9xiM/HbXZkitzBK1eU2Yrk3upzAguuhQURzmtehcwm02VnR1LG8o0e/p4vO74kcd+4ISAfjckM4MT3agZlkQ==",
+      "type": "package",
+      "path": "xam.plugin.iconize/3.4.0.103",
+      "files": [
+        ".signature.p7s",
+        "lib/monoandroid81/Plugin.Iconize.dll",
+        "lib/monoandroid81/Plugin.Iconize.pdb",
+        "lib/monoandroid81/Plugin.Iconize.xml",
+        "lib/netstandard1.3/Plugin.Iconize.dll",
+        "lib/netstandard1.3/Plugin.Iconize.pdb",
+        "lib/netstandard1.3/Plugin.Iconize.xml",
+        "lib/netstandard2.0/Plugin.Iconize.dll",
+        "lib/netstandard2.0/Plugin.Iconize.pdb",
+        "lib/netstandard2.0/Plugin.Iconize.xml",
+        "lib/uap10.0.16299/Plugin.Iconize.dll",
+        "lib/uap10.0.16299/Plugin.Iconize.pdb",
+        "lib/uap10.0.16299/Plugin.Iconize.pri",
+        "lib/uap10.0.16299/Plugin.Iconize.xml",
+        "lib/xamarinios10/Plugin.Iconize.dll",
+        "lib/xamarinios10/Plugin.Iconize.pdb",
+        "lib/xamarinios10/Plugin.Iconize.xml",
+        "xam.plugin.iconize.3.4.0.103.nupkg.sha512",
+        "xam.plugin.iconize.nuspec"
+      ]
+    },
+    "Xam.Plugin.Iconize.Material/3.4.0.103": {
+      "sha512": "1aHrnfyxvDSyIeA+kPq45i7Qrz+ARTSzUElukDBEk/5PfYtrBDpOolhWhE6qPFaFhINFhPqOpjkJJ4vzWt1XLQ==",
+      "type": "package",
+      "path": "xam.plugin.iconize.material/3.4.0.103",
+      "files": [
+        ".signature.p7s",
+        "contentFiles/any/Xamarin.iOS10/Resources/iconize-material.ttf",
+        "lib/monoandroid81/Plugin.Iconize.Material.dll",
+        "lib/monoandroid81/Plugin.Iconize.Material.pdb",
+        "lib/monoandroid81/Plugin.Iconize.Material.xml",
+        "lib/netstandard1.3/Plugin.Iconize.Material.dll",
+        "lib/netstandard1.3/Plugin.Iconize.Material.pdb",
+        "lib/netstandard1.3/Plugin.Iconize.Material.xml",
+        "lib/netstandard2.0/Plugin.Iconize.Material.dll",
+        "lib/netstandard2.0/Plugin.Iconize.Material.pdb",
+        "lib/netstandard2.0/Plugin.Iconize.Material.xml",
+        "lib/uap10.0.16299/Plugin.Iconize.Material.dll",
+        "lib/uap10.0.16299/Plugin.Iconize.Material.pdb",
+        "lib/uap10.0.16299/Plugin.Iconize.Material.pri",
+        "lib/uap10.0.16299/Plugin.Iconize.Material.xml",
+        "lib/uap10.0.16299/Plugin.Iconize.Material/iconize-material.ttf",
+        "lib/xamarinios10/Plugin.Iconize.Material.dll",
+        "lib/xamarinios10/Plugin.Iconize.Material.pdb",
+        "lib/xamarinios10/Plugin.Iconize.Material.xml",
+        "xam.plugin.iconize.material.3.4.0.103.nupkg.sha512",
+        "xam.plugin.iconize.material.nuspec"
       ]
     },
     "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
@@ -821,6 +933,28 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "XamarinForms.CardView/1.1.1.5": {
+      "sha512": "v0Km8qjwOO/TXoHEp0QvlzAS1bl6vJiVtyojYInT2a1pb0cjK/I4V8bWCHWFbXdZVO/vPonA5wW1l+9ByPL4ug==",
+      "type": "package",
+      "path": "xamarinforms.cardview/1.1.1.5",
+      "files": [
+        ".signature.p7s",
+        "lib/portable45-net45+win8+wp8+wpa81/CardView.dll",
+        "xamarinforms.cardview.1.1.1.5.nupkg.sha512",
+        "xamarinforms.cardview.nuspec"
+      ]
+    },
+    "XamarinForms.CardView.NetStandard/1.1.1.5": {
+      "sha512": "AeThRS/AlR6v8/gYKm0QxCJpiqqUHgcPzs477x9kf81hqTg8QpHEWsarNLUZ0dn1hYiC0EC6uk1QTYotubHm7Q==",
+      "type": "package",
+      "path": "xamarinforms.cardview.netstandard/1.1.1.5",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/CardViewNetStandard.dll",
+        "xamarinforms.cardview.netstandard.1.1.1.5.nupkg.sha512",
+        "xamarinforms.cardview.netstandard.nuspec"
+      ]
+    },
     "MasterDetail/1.0.0": {
       "type": "project",
       "path": "../MasterDetail/MasterDetail.csproj",
@@ -901,6 +1035,16 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 3.4.0.1009999 to 3.3.0.967583. Reference the package directly from the project to select a different version. \n MasterDetail.Android -> MasterDetail -> Xamarin.Forms (>= 3.4.0.1009999) \n MasterDetail.Android -> Xamarin.Forms (>= 3.3.0.967583)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v8.1"
+      ]
+    },
     {
       "code": "NU1202",
       "level": "Error",

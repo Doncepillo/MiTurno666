@@ -1,17 +1,26 @@
 ﻿<Properties StartupConfiguration="{F279D0F5-50E6-4067-A0E0-16F54C617FBA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MasterDetail/Views/Login.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MasterDetail/Views/Detail.xaml">
     <Files>
-      <File FileName="MasterDetail/Views/MainPage.xaml" Line="8" Column="20" />
+      <File FileName="MasterDetail/Views/MainPage.xaml" Line="13" Column="20" />
       <File FileName="MasterDetail/Views/Master.xaml" Line="19" Column="1" />
-      <File FileName="MasterDetail/Views/Detail.xaml" Line="10" Column="1" />
+      <File FileName="MasterDetail/Views/Detail.xaml" Line="21" Column="48" />
       <File FileName="MasterDetail/Views/MainPage.xaml.cs" Line="9" Column="2" />
       <File FileName="../../Desktop/IntentoMaster-master/Tried1/Tried1/Views/MainPage.xaml" Line="29" Column="19" />
       <File FileName="MasterDetail/Views/Login.xaml.cs" Line="1" Column="1" />
+      <File FileName="MasterDetail/MasterDetail.csproj" Line="26" Column="46" />
+      <File FileName="../../../../Library/Frameworks/Mono.framework/Versions/5.16.0/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets" Line="2130" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MasterDetail" expanded="True" selected="True" />
+          <Node name="MasterDetail" expanded="True">
+            <Node name="MasterDetail" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Detail.xaml" selected="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
