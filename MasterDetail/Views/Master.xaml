@@ -6,12 +6,21 @@
              
     <StackLayout Orientation="Vertical" Padding="10,30" Spacing="4">
        
+<<<<<<< HEAD
             <Image Source="logo.png" VerticalOptions="Start" Aspect="AspectFit" Margin="0,3,0,0"></Image>
             <Button Text="Mis Turnos" x:Name="btnMisTurnos" Clicked="btnMisTurnos_Clicked" BackgroundColor="orange" TextColor="White" HeightRequest="50" VerticalOptions="Start" Grid.Row="3"/>
             <Button Text="Lista de Turnos" x:Name="btnListaTurnos" Clicked="btnListaTurnos_Clicked" BackgroundColor="orange" TextColor="White" HeightRequest="50" VerticalOptions="Start" Grid.Row="3"/>
             <Button Text="Mi Perfil" x:Name="btnMiPerfil" Clicked="btnMiPerfil_Clicked" BackgroundColor="orange" TextColor="White" HeightRequest="50" VerticalOptions="Start" Grid.Row="3"/>
             <Button Text="Mi Rendimiento" x:Name="btnMiRendimiento" Clicked="btnMiRendimiento_Clicked" BackgroundColor="orange" TextColor="White" HeightRequest="50" VerticalOptions="Start" Grid.Row="3"/>
             <Button Text="Mis Notificaciones" x:Name="btnMisNotificaciones" Clicked="btnMisNotificaciones_Clicked" BackgroundColor="orange" TextColor="White" HeightRequest="50" VerticalOptions="Start" Grid.Row="3"/>
+=======
+        
+            <Button Text="Mis Turnos" x:Name="btnMisTurnos" Clicked="BtnMisTurnos_Clicked" BackgroundColor="orange" TextColor="White" HeightRequest="50" VerticalOptions="Start" Grid.Row="3"/>
+            <Button Text="Lista de Turnos" x:Name="btnListaTurnos" Clicked="BtnListaTurnos_Clicked" BackgroundColor="orange" TextColor="White" HeightRequest="50" VerticalOptions="Start" Grid.Row="3"/>
+            <Button Text="Mi Perfil" x:Name="btnMiPerfil" Clicked="BtnMiPerfil_Clicked" BackgroundColor="orange" TextColor="White" HeightRequest="50" VerticalOptions="Start" Grid.Row="3"/>
+            <Button Text="Mi Rendimiento" x:Name="btnMiRendimiento" Clicked="BtnMiRendimiento_Clicked" BackgroundColor="orange" TextColor="White" HeightRequest="50" VerticalOptions="Start" Grid.Row="3"/>
+            <Button Text="Mis Notificaciones" x:Name="btnMisNotificaciones" Clicked="BtnMisNotificaciones_Clicked" BackgroundColor="orange" TextColor="White" HeightRequest="50" VerticalOptions="Start" Grid.Row="3"/>
+>>>>>>> a0419f6a0ce0c73ebf4f57c7627a6d2b86aee678
         
         
     </StackLayout>
