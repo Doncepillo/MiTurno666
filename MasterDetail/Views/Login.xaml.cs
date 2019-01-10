@@ -28,7 +28,7 @@ namespace MasterDetail
             {
                 EmpaqueModel empaque = new EmpaqueModel() { Email = email, Password = pass };
 
-                HttpResponseMessage response =  await Service.autenticate("api/User/Authenticate", empaque);
+                HttpResponseMessage response =  await Service.Post("api/User/Authenticate", empaque);
                 if (response.StatusCode != System.Net.HttpStatusCode.NotFound) {
                     await Navigation.PushAsync(new MainPage()); 
                 } 
@@ -47,6 +47,7 @@ namespace MasterDetail
 
         private void Btn_Register(object sender, EventArgs e)
         {
+
             Navigation.PushAsync(new Register());
 
         }

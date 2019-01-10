@@ -12,6 +12,7 @@ namespace Modelo
     using System.Collections.Generic;
 
     using System.Globalization;
+    using System.Threading.Tasks;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
 
@@ -24,8 +25,7 @@ namespace Modelo
         public DateTimeOffset Initiation { get; set; }
 
         [JsonProperty("Finished")]
-        public DateTimeOffset Finished { get; set; }
-
+        public DateTimeOffset Finished { get; set; } 
         [JsonProperty("TurnDate")]
         public DateTimeOffset TurnDate { get; set; }
 
