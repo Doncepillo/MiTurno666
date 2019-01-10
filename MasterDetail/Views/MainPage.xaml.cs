@@ -14,44 +14,13 @@ namespace MasterDetail
             InitializeComponent();
             this.Master = new Master();
             this.Detail = new NavigationPage(new Detail());
-
             App.MasterD = this;
-        }
-
-        private void button_clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new ListaTurnos());
-
-        }
-        private void ListaTurnos(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new ListaTurnos());
 
         }
 
-        private void MiPerfil(object sender, EventArgs e)
-        {
-            this.
-            Navigation.PushAsync(new MiPerfil());
 
-        }
-        private void MiRendimiento(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new MiRendimiento());
 
-        }
-        private void MisNotificaciones(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new MisNotificaciones());
 
-        }
-        private void MisTurnos(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new MisTurnos());
-
-        }
-
-       
     }
 }
 
