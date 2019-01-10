@@ -19,11 +19,20 @@
                    
 
                 </Grid.RowDefinitions>
-              
-                <Entry x:Name="Email" Placeholder="Email" Grid.Row="5" Grid.Column="0"></Entry>
-                <Entry x:Name="Contraseña" Placeholder="Password" Grid.Row="6" Grid.Column="0"></Entry>
-                <Entry></Entry>
+
+                <Picker Title="Supermercado" x:Name="pckSupermarket" ItemDisplayBinding="{Binding SpmName}" Grid.Row="2" Grid.Column="0">
+
+                    
+
+                </Picker>
+
+
+                <Entry x:Name="Email" Placeholder="Email" Grid.Row="3" Grid.Column="0"></Entry>
+                <Entry x:Name="Contraseña" Placeholder="Password" Grid.Row="4" Grid.Column="0"></Entry>
                 
+                <Button Text="Registrar" Clicked="Registrar" Grid.Row="5" Grid.Column="0">
+                </Button>
+
 
 
 

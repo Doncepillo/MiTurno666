@@ -22,10 +22,10 @@ namespace MasterDetail.Servicio
                 return JsonConvert.DeserializeObject<EmpaqueModel>(json);
             }
         }
-        public static async Task<HttpResponseMessage> autenticate(string paht, object objeto)
+        public static async Task<HttpResponseMessage> Post(string path, object objeto)
         {
 
-            var url = new Uri($"{BASE}/{paht}");
+            var url = new Uri($"{BASE}/{path}");
 
             HttpResponseMessage response;
 
@@ -41,14 +41,14 @@ namespace MasterDetail.Servicio
 
             return response;
         }
-        public static async Task<List<Turnos>> turnos (string path) {
+        public static async Task<string> GetApi (string path) {
 
             using (var httpClient = new HttpClient())
             {
                 var result = await httpClient.GetAsync($"{BASE}/{path}");
                 var json = await result.Content.ReadAsStringAsync();
 
-                return JsonConvert.DeserializeObject<List<Turnos>>(json);
+                return (json);
             }
         }
     }
