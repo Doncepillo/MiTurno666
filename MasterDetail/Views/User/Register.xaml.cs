@@ -42,8 +42,7 @@ namespace MasterDetail.Views.User
             EmpaqueModel empaque = new EmpaqueModel()
             {
                 Email = email,
-                Password = pass,
-                Supermarket = pckSupermarket
+                Password = pass
             };
 
             
