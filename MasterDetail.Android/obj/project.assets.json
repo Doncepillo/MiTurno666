@@ -2,49 +2,6 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
-      "MaterialDesignColors/1.1.3": {
-        "type": "package"
-      },
-      "Newtonsoft.Json/12.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      },
-      "Xam.Plugin.Iconize/3.4.0.103": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "3.4.0.1008975"
-        },
-        "frameworkAssemblies": [
-          "Java.Interop"
-        ],
-        "compile": {
-          "lib/monoandroid81/Plugin.Iconize.dll": {}
-        },
-        "runtime": {
-          "lib/monoandroid81/Plugin.Iconize.dll": {}
-        }
-      },
-      "Xam.Plugin.Iconize.Material/3.4.0.103": {
-        "type": "package",
-        "dependencies": {
-          "Xam.Plugin.Iconize": "3.4.0.103",
-          "Xamarin.Forms": "3.4.0.1008975"
-        },
-        "frameworkAssemblies": [
-          "Java.Interop"
-        ],
-        "compile": {
-          "lib/monoandroid81/Plugin.Iconize.Material.dll": {}
-        },
-        "runtime": {
-          "lib/monoandroid81/Plugin.Iconize.Material.dll": {}
-        }
-      },
       "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
         "type": "package",
         "dependencies": {
@@ -383,156 +340,10 @@
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
         }
-      },
-      "XamarinForms.CardView/1.1.1.5": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.5.0.122203"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {}
-        }
-      },
-      "XamarinForms.CardView.NetStandard/1.1.1.5": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.5.0.122203"
-        },
-        "compile": {
-          "lib/netstandard2.0/CardViewNetStandard.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/CardViewNetStandard.dll": {}
-        }
-      },
-      "MasterDetail/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "MaterialDesignColors": "1.1.3",
-          "Newtonsoft.Json": "12.0.1",
-          "Xam.Plugin.Iconize.Material": "3.4.0.103",
-          "Xamarin.Forms": "3.4.0.1009999",
-          "XamarinForms.CardView": "1.1.1.5",
-          "XamarinForms.CardView.NetStandard": "1.1.1.5"
-        },
-        "compile": {
-          "bin/placeholder/MasterDetail.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MasterDetail.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "MaterialDesignColors/1.1.3": {
-      "sha512": "os3xFYXdjzL7yYhdhHI3iN8hTMJIHK2FThoTtzRs0tNMEHos6ag3D3LpzTwFsXeqKq3n2rnpxMrHies7wmVWeg==",
-      "type": "package",
-      "path": "materialdesigncolors/1.1.3",
-      "files": [
-        ".signature.p7s",
-        "lib/net45/MaterialDesignColors.dll",
-        "lib/net45/MaterialDesignColors.pdb",
-        "materialdesigncolors.1.1.3.nupkg.sha512",
-        "materialdesigncolors.nuspec"
-      ]
-    },
-    "Newtonsoft.Json/12.0.1": {
-      "sha512": "jmVyoEyk0In8r+AObYQyFKVFm7uSRzE0XSHSbEtBJcZDMV6DqJoyB4FLcHwprPVhAh826so0db3DIKXVnpGoPA==",
-      "type": "package",
-      "path": "newtonsoft.json/12.0.1",
-      "files": [
-        ".signature.p7s",
-        "LICENSE.md",
-        "lib/net20/Newtonsoft.Json.dll",
-        "lib/net20/Newtonsoft.Json.pdb",
-        "lib/net20/Newtonsoft.Json.xml",
-        "lib/net35/Newtonsoft.Json.dll",
-        "lib/net35/Newtonsoft.Json.pdb",
-        "lib/net35/Newtonsoft.Json.xml",
-        "lib/net40/Newtonsoft.Json.dll",
-        "lib/net40/Newtonsoft.Json.pdb",
-        "lib/net40/Newtonsoft.Json.xml",
-        "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.pdb",
-        "lib/net45/Newtonsoft.Json.xml",
-        "lib/netstandard1.0/Newtonsoft.Json.dll",
-        "lib/netstandard1.0/Newtonsoft.Json.pdb",
-        "lib/netstandard1.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.3/Newtonsoft.Json.dll",
-        "lib/netstandard1.3/Newtonsoft.Json.pdb",
-        "lib/netstandard1.3/Newtonsoft.Json.xml",
-        "lib/netstandard2.0/Newtonsoft.Json.dll",
-        "lib/netstandard2.0/Newtonsoft.Json.pdb",
-        "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.pdb",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.pdb",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.12.0.1.nupkg.sha512",
-        "newtonsoft.json.nuspec"
-      ]
-    },
-    "Xam.Plugin.Iconize/3.4.0.103": {
-      "sha512": "on9xiM/HbXZkitzBK1eU2Yrk3upzAguuhQURzmtehcwm02VnR1LG8o0e/p4vO74kcd+4ISAfjckM4MT3agZlkQ==",
-      "type": "package",
-      "path": "xam.plugin.iconize/3.4.0.103",
-      "files": [
-        ".signature.p7s",
-        "lib/monoandroid81/Plugin.Iconize.dll",
-        "lib/monoandroid81/Plugin.Iconize.pdb",
-        "lib/monoandroid81/Plugin.Iconize.xml",
-        "lib/netstandard1.3/Plugin.Iconize.dll",
-        "lib/netstandard1.3/Plugin.Iconize.pdb",
-        "lib/netstandard1.3/Plugin.Iconize.xml",
-        "lib/netstandard2.0/Plugin.Iconize.dll",
-        "lib/netstandard2.0/Plugin.Iconize.pdb",
-        "lib/netstandard2.0/Plugin.Iconize.xml",
-        "lib/uap10.0.16299/Plugin.Iconize.dll",
-        "lib/uap10.0.16299/Plugin.Iconize.pdb",
-        "lib/uap10.0.16299/Plugin.Iconize.pri",
-        "lib/uap10.0.16299/Plugin.Iconize.xml",
-        "lib/xamarinios10/Plugin.Iconize.dll",
-        "lib/xamarinios10/Plugin.Iconize.pdb",
-        "lib/xamarinios10/Plugin.Iconize.xml",
-        "xam.plugin.iconize.3.4.0.103.nupkg.sha512",
-        "xam.plugin.iconize.nuspec"
-      ]
-    },
-    "Xam.Plugin.Iconize.Material/3.4.0.103": {
-      "sha512": "1aHrnfyxvDSyIeA+kPq45i7Qrz+ARTSzUElukDBEk/5PfYtrBDpOolhWhE6qPFaFhINFhPqOpjkJJ4vzWt1XLQ==",
-      "type": "package",
-      "path": "xam.plugin.iconize.material/3.4.0.103",
-      "files": [
-        ".signature.p7s",
-        "contentFiles/any/Xamarin.iOS10/Resources/iconize-material.ttf",
-        "lib/monoandroid81/Plugin.Iconize.Material.dll",
-        "lib/monoandroid81/Plugin.Iconize.Material.pdb",
-        "lib/monoandroid81/Plugin.Iconize.Material.xml",
-        "lib/netstandard1.3/Plugin.Iconize.Material.dll",
-        "lib/netstandard1.3/Plugin.Iconize.Material.pdb",
-        "lib/netstandard1.3/Plugin.Iconize.Material.xml",
-        "lib/netstandard2.0/Plugin.Iconize.Material.dll",
-        "lib/netstandard2.0/Plugin.Iconize.Material.pdb",
-        "lib/netstandard2.0/Plugin.Iconize.Material.xml",
-        "lib/uap10.0.16299/Plugin.Iconize.Material.dll",
-        "lib/uap10.0.16299/Plugin.Iconize.Material.pdb",
-        "lib/uap10.0.16299/Plugin.Iconize.Material.pri",
-        "lib/uap10.0.16299/Plugin.Iconize.Material.xml",
-        "lib/uap10.0.16299/Plugin.Iconize.Material/iconize-material.ttf",
-        "lib/xamarinios10/Plugin.Iconize.Material.dll",
-        "lib/xamarinios10/Plugin.Iconize.Material.pdb",
-        "lib/xamarinios10/Plugin.Iconize.Material.xml",
-        "xam.plugin.iconize.material.3.4.0.103.nupkg.sha512",
-        "xam.plugin.iconize.material.nuspec"
-      ]
-    },
     "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
       "sha512": "GIz8xfnOLJH5yWC0ocIR80hJlYQ2Lz2HQKjW2/vi0rxYXR6nF/D4aOFlTx1PIA6A9FLgFRrajSJyCfx460qycw==",
       "type": "package",
@@ -932,38 +743,10 @@
         "xamarin.forms.3.3.0.967583.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
-    },
-    "XamarinForms.CardView/1.1.1.5": {
-      "sha512": "v0Km8qjwOO/TXoHEp0QvlzAS1bl6vJiVtyojYInT2a1pb0cjK/I4V8bWCHWFbXdZVO/vPonA5wW1l+9ByPL4ug==",
-      "type": "package",
-      "path": "xamarinforms.cardview/1.1.1.5",
-      "files": [
-        ".signature.p7s",
-        "lib/portable45-net45+win8+wp8+wpa81/CardView.dll",
-        "xamarinforms.cardview.1.1.1.5.nupkg.sha512",
-        "xamarinforms.cardview.nuspec"
-      ]
-    },
-    "XamarinForms.CardView.NetStandard/1.1.1.5": {
-      "sha512": "AeThRS/AlR6v8/gYKm0QxCJpiqqUHgcPzs477x9kf81hqTg8QpHEWsarNLUZ0dn1hYiC0EC6uk1QTYotubHm7Q==",
-      "type": "package",
-      "path": "xamarinforms.cardview.netstandard/1.1.1.5",
-      "files": [
-        ".signature.p7s",
-        "lib/netstandard2.0/CardViewNetStandard.dll",
-        "xamarinforms.cardview.netstandard.1.1.1.5.nupkg.sha512",
-        "xamarinforms.cardview.netstandard.nuspec"
-      ]
-    },
-    "MasterDetail/1.0.0": {
-      "type": "project",
-      "path": "../MasterDetail/MasterDetail.csproj",
-      "msbuildProject": "../MasterDetail/MasterDetail.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
-      "MasterDetail >= 1.0.0",
       "Xamarin.Android.Support.Design >= 27.0.2.1",
       "Xamarin.Android.Support.v4 >= 27.0.2.1",
       "Xamarin.Android.Support.v7.AppCompat >= 27.0.2.1",
@@ -978,11 +761,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Toga/Projects/MasterDetail/MasterDetail.Android/MasterDetail.Android.csproj",
+      "projectUniqueName": "/Users/Toga/Desktop/555/MiTurno666/MasterDetail.Android/MasterDetail.Android.csproj",
       "projectName": "MasterDetail.Android",
-      "projectPath": "/Users/Toga/Projects/MasterDetail/MasterDetail.Android/MasterDetail.Android.csproj",
+      "projectPath": "/Users/Toga/Desktop/555/MiTurno666/MasterDetail.Android/MasterDetail.Android.csproj",
       "packagesPath": "/Users/Toga/.nuget/packages/",
-      "outputPath": "/Users/Toga/Projects/MasterDetail/MasterDetail.Android/obj",
+      "outputPath": "/Users/Toga/Desktop/555/MiTurno666/MasterDetail.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Toga/.config/NuGet/NuGet.Config"
@@ -995,11 +778,7 @@
       },
       "frameworks": {
         "monoandroid81": {
-          "projectReferences": {
-            "/Users/Toga/Projects/MasterDetail/MasterDetail/MasterDetail.csproj": {
-              "projectPath": "/Users/Toga/Projects/MasterDetail/MasterDetail/MasterDetail.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       }
     },
@@ -1033,26 +812,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 3.4.0.1009999 to 3.3.0.967583. Reference the package directly from the project to select a different version. \n MasterDetail.Android -> MasterDetail -> Xamarin.Forms (>= 3.4.0.1009999) \n MasterDetail.Android -> Xamarin.Forms (>= 3.3.0.967583)",
-      "libraryId": "Xamarin.Forms",
-      "targetGraphs": [
-        "MonoAndroid,Version=v8.1"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package MaterialDesignColors 1.1.3 is not compatible with monoandroid81 (MonoAndroid,Version=v8.1). Package MaterialDesignColors 1.1.3 supports: net45 (.NETFramework,Version=v4.5)",
-      "libraryId": "MaterialDesignColors",
-      "targetGraphs": [
-        "MonoAndroid,Version=v8.1"
-      ]
-    }
-  ]
+  }
 }
