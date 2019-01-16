@@ -1,5 +1,5 @@
 ﻿using MasterDetail.Servicio;
-using Modelo;
+using MasterDetail;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ namespace MasterDetail
 {
     public partial class ListaTurnos : ContentPage
     {
-        string path = "api/turn";
+        
 
         public ListaTurnos()
         {
@@ -20,11 +20,11 @@ namespace MasterDetail
 
         private void Cargar() {
 
-            GrillaTurnosAsync(path);
+            GrillaTurnosAsync();
         }
-        private async Task GrillaTurnosAsync(string path)
+        private async Task GrillaTurnosAsync()
         {
-            string response = await Service.GetApi(path);
+            string response = await Service.GetAllApi("api/turn");
 
             List<Turnos> turnos =  JsonConvert.DeserializeObject<List<Turnos>>(response);
             LV_Turnos.ItemsSource = turnos;

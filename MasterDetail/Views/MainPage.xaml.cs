@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MasterDetail;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,18 +10,17 @@ namespace MasterDetail
 {
     public partial class MainPage : MasterDetailPage
     {
-        public MainPage()
+        EmpaqueModel empaque;
+
+        public MainPage(EmpaqueModel empaque)
         {
+            this.empaque = empaque;
             InitializeComponent();
-            this.Master = new Master();
-            this.Detail = new NavigationPage(new Detail());
+            NavigationPage.SetHasNavigationBar(this, false);
+            this.Master = new Master(this.empaque);
+            this.Detail = new NavigationPage(new Detail(this.empaque));
             App.MasterD = this;
-
         }
-
-
-
-
     }
 }
 

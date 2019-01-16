@@ -1,5 +1,5 @@
 ﻿using MasterDetail.Servicio;
-using Modelo;
+using MasterDetail;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -12,11 +12,17 @@ namespace MasterDetail.Views.User
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Register : ContentPage
     {
+
+        private List<Supermercado> supermercados;
+        private long market;
+
+
         public Register()
         {
             InitializeComponent();
 
             Cargar();
+            this.market = 0;
         }
 
         private void Cargar()
@@ -25,24 +31,28 @@ namespace MasterDetail.Views.User
         }
         private async void Cargapicker()
         {
-            string response = await Service.GetApi("api/supermarket");
+            string response = await Service.GetAllApi("api/supermarket");
 
-            List<Supermercado> supermercados = JsonConvert.DeserializeObject<List<Supermercado>>(response);
+            List<Supermercado> supermercados2 = JsonConvert.DeserializeObject<List<Supermercado>>(response);
+            pckSupermarket.ItemsSource = supermercados2;
+            supermercados = supermercados2;
 
-            pckSupermarket.ItemsSource = supermercados;
-            
         }
-     
+
 
         private async void Registrar(object sender, EventArgs e)
         {
             string email = Email.Text;
             string pass = Contraseña.Text;
+            Supermercado sup = (Supermercado)pckSupermarket.SelectedItem;
+
 
             EmpaqueModel empaque = new EmpaqueModel()
             {
                 Email = email,
-                Password = pass
+                Password = pass,
+                Supermarket = sup.Id
+                
             };
 
             
@@ -50,7 +60,7 @@ namespace MasterDetail.Views.User
             HttpResponseMessage response = await Service.Post("api/User", empaque);
             if (response.StatusCode != System.Net.HttpStatusCode.NotFound)
             {
-                await Navigation.PushAsync(new MainPage());
+                await Navigation.PushAsync(new Login());
             }
             else
             {
@@ -59,5 +69,7 @@ namespace MasterDetail.Views.User
             }
 
         }
+
+        
     }
 }

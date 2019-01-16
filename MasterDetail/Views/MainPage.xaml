@@ -3,11 +3,7 @@
                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                   xmlns:local="clr-namespace:MasterDetail"
                   x:Class="MasterDetail.MainPage"
+                  BackgroundImage="orangebg.png"
                   Title="Menú">
-    <ContentPage.Content>
-   
-            
-        
-    </ContentPage.Content>
                   
 </MasterDetailPage>

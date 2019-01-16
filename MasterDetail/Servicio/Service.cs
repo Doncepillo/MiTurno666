@@ -1,4 +1,4 @@
-﻿using Modelo;
+﻿using MasterDetail;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -41,7 +41,21 @@ namespace MasterDetail.Servicio
 
             return response;
         }
-        public static async Task<string> GetApi (string path) {
+        public static async Task<string> GetOneApi (string path,object objeto) {
+            var url = new Uri($"{BASE}/{path}");
+
+            using (var httpClient = new HttpClient())
+            {
+                var result = await httpClient.PostAsync(url, new StringContent(
+                    Newtonsoft.Json.JsonConvert.SerializeObject(objeto),Encoding.UTF8,"application/json"
+                    ));
+                var json = await result.Content.ReadAsStringAsync();
+
+                return (json);
+            }
+        }
+        public static async Task<string> GetAllApi(string path)
+        {
 
             using (var httpClient = new HttpClient())
             {

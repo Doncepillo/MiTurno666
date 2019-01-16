@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Linq;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace MasterDetail
@@ -13,7 +14,19 @@ namespace MasterDetail
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage( new Login());
+            using (var datos = new DataAccess())
+            {
+                var empaque = datos.GetEmpaques().FirstOrDefault();
+                if (empaque != null)
+                {
+                    MainPage = new NavigationPage(new Login());
+                }
+                else
+                {
+                    MainPage = new NavigationPage(new Login());
+
+                }
+            }
         }
 
         protected override void OnStart()

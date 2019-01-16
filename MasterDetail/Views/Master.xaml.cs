@@ -1,4 +1,4 @@
-﻿using Modelo;
+﻿using MasterDetail;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -8,8 +8,10 @@ namespace MasterDetail
 {
     public partial class Master : ContentPage
     {
-        public Master()
+        EmpaqueModel empaque;
+        public Master(EmpaqueModel empaque)
         {
+            this.empaque = empaque;
             InitializeComponent();
         }
 
@@ -31,8 +33,9 @@ namespace MasterDetail
 
         private async void BtnMiPerfil_Clicked(object sender, EventArgs e)
         {
+            
             App.MasterD.IsPresented = false;
-            await App.MasterD.Detail.Navigation.PushAsync(new MiPerfil());
+            await App.MasterD.Detail.Navigation.PushAsync(new MiPerfil(this.empaque));
 
         }
 
@@ -50,5 +53,11 @@ namespace MasterDetail
 
         }
 
+        private async void btnCerrarSesion_Clicked(object sender, EventArgs e)
+        {
+            Application.Current.Properties["IsLoggedIn"] = false;
+            await Application.Current.SavePropertiesAsync();
+            Application.Current.MainPage = new Login();
+        }
     }
 }

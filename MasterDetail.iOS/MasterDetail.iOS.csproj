@@ -38,7 +38,8 @@
     <MtouchLink>None</MtouchLink>
     <MtouchArch>x86_64</MtouchArch>
     <ConsolePause>false</ConsolePause>
-    <MtouchExtraArgs></MtouchExtraArgs>
+    <MtouchExtraArgs>
+    </MtouchExtraArgs>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -91,6 +92,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Config.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="Entitlements.plist" />
@@ -160,5 +162,6 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\logo.png" />
+    <BundleResource Include="Resources\orangebg.png" />
   </ItemGroup>
 </Project>
