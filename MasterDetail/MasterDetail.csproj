@@ -15,7 +15,6 @@
     <PackageReference Include="SQLite.Net-PCL" Version="3.1.1" />
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1009999" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
-    <PackageReference Include="XamarinForms.CardView" Version="1.1.1.5" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Detail.cs" />

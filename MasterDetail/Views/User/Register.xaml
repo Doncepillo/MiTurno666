@@ -2,8 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MasterDetail.Views.User.Register"
-             BackgroundImage="orangebg.png"
-             Title="Crear Cuenta">
+             BackgroundImage="orangebg.png">
     <ContentPage.Padding>
 
         <OnPlatform x:TypeArguments="Thickness">
@@ -17,30 +16,22 @@
     <ContentPage.Content >
         <ScrollView>
             <StackLayout Margin="25">
-                
-                
+
+
                 <Image Source="logo.png" VerticalOptions="Start" Margin="0,3,0,0"></Image>
 
 
                 <Entry x:Name="Email"  Placeholder="Email"  PlaceholderColor="#bababa" Opacity="0.8" HeightRequest="40" FontSize="16"/>
-                
+
                 <Picker Title="Seleccione un supermercado"  x:Name="pckSupermarket" ItemDisplayBinding="{Binding SpmName}" Opacity="0.8" FontSize="16" HeightRequest="40" Grid.Row="2" Grid.Column="0"/>
-                
+
                 <Entry x:Name="Contraseña"  Placeholder="Contraseña" IsPassword="true" PlaceholderColor="#bababa" Opacity="0.8" HeightRequest="40" FontSize="16"/>
 
-                
+
                 <ActivityIndicator x:Name="waitActivityIndicator" HorizontalOptions="Center" VerticalOptions="Center"/>
                 <Button Text="Registrarse" Clicked="Registrar" BackgroundColor="orange" TextColor="White" BorderRadius="20" HeightRequest="50" FontSize="17" VerticalOptions="Start"/>
-               
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
-    
-    
-    
-    
-    
-    
-    
-    

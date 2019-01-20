@@ -41,7 +41,7 @@ namespace MasterDetail
         public long PhoneNumber { get; set; }
 
         [JsonProperty("BirthDate")]
-        public DateTimeOffset BirthDate { get; set; }
+        public DateTime BirthDate { get; set; }
 
         [JsonProperty("Gender")]
         public long Gender { get; set; }

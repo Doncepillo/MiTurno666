@@ -16,11 +16,12 @@ namespace MasterDetail
         {
             this.empaque = empaque;
             InitializeComponent();
-            NavigationPage.SetHasNavigationBar(this, false);
             this.Master = new Master(this.empaque);
             this.Detail = new NavigationPage(new Detail(this.empaque));
             App.MasterD = this;
         }
+
+
     }
 }
 

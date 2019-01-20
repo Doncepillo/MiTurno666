@@ -14,7 +14,7 @@ namespace MasterDetail.Views.User
     {
 
         private List<Supermercado> supermercados;
-        private long market;
+       
 
 
         public Register()
@@ -22,7 +22,7 @@ namespace MasterDetail.Views.User
             InitializeComponent();
 
             Cargar();
-            this.market = 0;
+           
         }
 
         private void Cargar()

@@ -17,14 +17,14 @@ namespace MasterDetail
 
         private async void BtnMisTurnos_Clicked(object sender, EventArgs e)
         {
-            
+
 
             App.MasterD.IsPresented = false;
             await App.MasterD.Detail.Navigation.PushAsync(new MisTurnos());
         }
 
-        private async void BtnListaTurnos_Clicked(object sender, EventArgs e) 
-        { 
+        private async void BtnListaTurnos_Clicked(object sender, EventArgs e)
+        {
 
             App.MasterD.IsPresented = false;
             await App.MasterD.Detail.Navigation.PushAsync(new ListaTurnos());
@@ -33,7 +33,7 @@ namespace MasterDetail
 
         private async void BtnMiPerfil_Clicked(object sender, EventArgs e)
         {
-            
+
             App.MasterD.IsPresented = false;
             await App.MasterD.Detail.Navigation.PushAsync(new MiPerfil(this.empaque));
 
@@ -53,7 +53,7 @@ namespace MasterDetail
 
         }
 
-        private async void btnCerrarSesion_Clicked(object sender, EventArgs e)
+        private async void BtnCerrarSesion_Clicked(object sender, EventArgs e)
         {
             Application.Current.Properties["IsLoggedIn"] = false;
             await Application.Current.SavePropertiesAsync();

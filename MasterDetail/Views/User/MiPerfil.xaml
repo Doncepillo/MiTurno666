@@ -3,30 +3,28 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MasterDetail.MiPerfil"
              BackgroundImage="orangebg.png"
-             Title="Mi Perfil">
-    <ContentPage.Padding>
-
-        <OnPlatform x:TypeArguments="Thickness">
-
-        </OnPlatform>
-
-    </ContentPage.Padding>
-    
-    <ContentPage.Content >
-
+             >
+    <ContentPage.Content>
         <StackLayout>
+            <Label Text="Mi Perfil" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Large"/>
             
-            
-            <Label x:Name="lblRut" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Label x:Name="lblName" Text="" HorizontalOptions="Center" VerticalOptions="Center" />
-            <Label x:Name="lblLastname" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Label x:Name="lblSuperm" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Label x:Name="lblPhone" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Label x:Name="lblBirthdate" Text="{Binding BirthDate, StringFormat='{0:MMMM dd, yyyy}'}" HorizontalOptions="Center" VerticalOptions="Center" />
-            <Label x:Name="lblGender" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Label x:Name="lblAdress" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Label x:Name="lblJobTitle" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
-            
+            <Entry x:Name="lblRut" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            <Entry x:Name="lblName" Text="" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Entry x:Name="lblLastname" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Entry x:Name="lblSuperm" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Entry x:Name="lblPhone" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Entry x:Name="lblBirthdate" Text="{Binding StringFormat='{0:DD MM,YYYY}'}" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Entry x:Name="lblGender" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Entry x:Name="lblAdress" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Entry x:Name="lblJobTitle" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Button x:Name="Btn_EditarPerfil" Clicked="Btn_EditarPerfil_Clicked" HorizontalOptions="Center" VerticalOptions="Center" />
+
+
+
+
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

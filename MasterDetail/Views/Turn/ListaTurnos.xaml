@@ -1,16 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MasterDetail.ListaTurnos"
-             Title="Lista de Turnos">
+             x:Class="MasterDetail.ListaTurnos">
     <ContentPage.Content>
         <StackLayout>
-            <ListView x:Name="LV_Turnos">
+            <Label Text="Lista de Turnos"/>
+            <ActivityIndicator x:Name="waitActivityIndicator" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            <ListView x:Name="LV_Turnos"  HasUnevenRows="True" ItemTapped="TomarTurno" >
+                
                 <ListView.ItemTemplate>
+                    
                     <DataTemplate>
-                        <TextCell x:Name="turno"  Text="{Binding WorkingDay}" 
-                                  Detail="{Binding MaximunCap}"/>
+
+                        <ViewCell  x:Name="Turno" Height="80" >
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Image Grid.Column="0" Grid.RowSpan="2" HeightRequest="30" VerticalOptions="Center" HorizontalOptions="Start" Source="asignarTurno.png"  />
+                                <Label  Text="HoraInicio: " HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="1" />
+                                <Label  Text="Fecha del turno: " HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="1"/>
+                                <Label  Text="Jornada: "  HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="3" Grid.Column="1" />
+                                <Label x:Name="Fecha" Grid.Column="2" Grid.Row="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding Initiation}"/>
+                                <Label x:Name="FechaFin" Grid.Column="2" Grid.Row="2" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding TurnDate}"/>
+                                <Label x:Name="lblJornada" Grid.Column="2" Grid.Row="3" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding WorkingDay}"/>
+                            </Grid>
+                        </ViewCell>
+
                     </DataTemplate>
+                    
                 </ListView.ItemTemplate>
             </ListView>
         </StackLayout>

@@ -22,12 +22,12 @@ namespace MasterDetail
         public long Id { get; set; }
 
         [JsonProperty("Initiation")]
-        public DateTimeOffset Initiation { get; set; }
+        public DateTime Initiation { get; set; }
 
         [JsonProperty("Finished")]
-        public DateTimeOffset Finished { get; set; } 
+        public DateTime Finished { get; set; } 
         [JsonProperty("TurnDate")]
-        public DateTimeOffset TurnDate { get; set; }
+        public DateTime TurnDate { get; set; }
 
         [JsonProperty("TurnState")]
         [JsonConverter(typeof(ParseStringConverter))]
@@ -41,6 +41,7 @@ namespace MasterDetail
 
         [JsonProperty("Calification")]
         public long Calification { get; set; }
+
     }
 
     public partial class Turnos

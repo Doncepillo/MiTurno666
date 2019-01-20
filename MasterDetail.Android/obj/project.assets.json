@@ -380,18 +380,6 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "XamarinForms.CardView/1.1.1.5": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.5.0.122203"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {}
-        }
-      },
       "MasterDetail/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -400,8 +388,7 @@
           "MaterialDesignThemes": "2.5.0.1205",
           "Newtonsoft.Json": "12.0.1",
           "SQLite.Net-PCL": "3.1.1",
-          "Xamarin.Forms": "3.4.0.1009999",
-          "XamarinForms.CardView": "1.1.1.5"
+          "Xamarin.Forms": "3.4.0.1009999"
         },
         "compile": {
           "bin/placeholder/MasterDetail.dll": {}
@@ -418,6 +405,7 @@
       "type": "package",
       "path": "materialdesigncolors/1.1.3",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/MaterialDesignColors.dll",
         "lib/net45/MaterialDesignColors.pdb",
@@ -430,6 +418,7 @@
       "type": "package",
       "path": "materialdesignthemes/2.5.0.1205",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/MaterialDesignThemes.Wpf.XML",
         "lib/net45/MaterialDesignThemes.Wpf.dll",
@@ -616,6 +605,7 @@
       "type": "package",
       "path": "sqlite.net-pcl/3.1.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid/SQLite.Net.Platform.XamarinAndroid.dll",
         "lib/Windows8/SQLite.Net.Platform.WinRT.dll",
@@ -636,6 +626,7 @@
       "type": "package",
       "path": "sqlite.net.core-pcl/3.1.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll",
         "sqlite.net.core-pcl.3.1.1.nupkg.sha512",
@@ -946,13 +937,11 @@
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
-        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
@@ -1064,17 +1053,6 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "XamarinForms.CardView/1.1.1.5": {
-      "sha512": "v0Km8qjwOO/TXoHEp0QvlzAS1bl6vJiVtyojYInT2a1pb0cjK/I4V8bWCHWFbXdZVO/vPonA5wW1l+9ByPL4ug==",
-      "type": "package",
-      "path": "xamarinforms.cardview/1.1.1.5",
-      "files": [
-        ".signature.p7s",
-        "lib/portable45-net45+win8+wp8+wpa81/CardView.dll",
-        "xamarinforms.cardview.1.1.1.5.nupkg.sha512",
-        "xamarinforms.cardview.nuspec"
-      ]
-    },
     "MasterDetail/1.0.0": {
       "type": "project",
       "path": "../MasterDetail/MasterDetail.csproj",
@@ -1098,11 +1076,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\exe_6\\Desktop\\IntentoMERGE\\MasterDetail.Android\\MasterDetail.Android.csproj",
+      "projectUniqueName": "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail.Android\\MasterDetail.Android.csproj",
       "projectName": "MasterDetail.Android",
-      "projectPath": "C:\\Users\\exe_6\\Desktop\\IntentoMERGE\\MasterDetail.Android\\MasterDetail.Android.csproj",
+      "projectPath": "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail.Android\\MasterDetail.Android.csproj",
       "packagesPath": "C:\\Users\\exe_6\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\exe_6\\Desktop\\IntentoMERGE\\MasterDetail.Android\\obj\\",
+      "outputPath": "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1119,8 +1097,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\exe_6\\Desktop\\IntentoMERGE\\MasterDetail\\MasterDetail.csproj": {
-              "projectPath": "C:\\Users\\exe_6\\Desktop\\IntentoMERGE\\MasterDetail\\MasterDetail.csproj"
+            "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail\\MasterDetail.csproj": {
+              "projectPath": "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail\\MasterDetail.csproj"
             }
           }
         }

@@ -54,12 +54,15 @@ namespace MasterDetail
                         datos.InsertEmpaque(emp); 
                     }
                 }
+                waitActivityIndicator.IsRunning = false;
 
-                    await Navigation.PushAsync(new MainPage(emp));
+                await Navigation.PushAsync(new MainPage(emp));
                 }
                 else
                 {
-                    await DisplayAlert("Error de Acceso", "Informacion de usuario no corresponde", "Ok");
+                waitActivityIndicator.IsRunning = false;
+
+                await DisplayAlert("Error de Acceso", "Informacion de usuario no corresponde", "Ok");
 
                 }
 

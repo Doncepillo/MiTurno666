@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "c83351f85232298e2343c79acae3590ae67bba00"
+    "signature": "91752ffd191b64786e49db01f4f05ccfb75e7672"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,12 +10,9 @@
       "MasterDetail/1.0.0": {
         "dependencies": {
           "MaterialDesignColors": "1.1.3",
-          "MaterialDesignThemes": "2.5.0.1205",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.1",
-          "SQLite.Net-PCL": "3.1.1",
-          "Xamarin.Forms": "3.4.0.1009999",
-          "XamarinForms.CardView": "1.1.1.5"
+          "Xamarin.Forms": "3.3.0.967583"
         },
         "runtime": {
           "MasterDetail.dll": {}
@@ -26,17 +23,6 @@
           "lib/net45/MaterialDesignColors.dll": {
             "assemblyVersion": "1.1.3.0",
             "fileVersion": "1.1.3.0"
-          }
-        }
-      },
-      "MaterialDesignThemes/2.5.0.1205": {
-        "dependencies": {
-          "MaterialDesignColors": "1.1.3"
-        },
-        "runtime": {
-          "lib/net45/MaterialDesignThemes.Wpf.dll": {
-            "assemblyVersion": "2.5.0.1205",
-            "fileVersion": "2.5.0.1205"
           }
         }
       },
@@ -54,30 +40,7 @@
           }
         }
       },
-      "SQLite.Net-PCL/3.1.1": {
-        "dependencies": {
-          "SQLite.Net.Core-PCL": "3.1.1"
-        },
-        "runtime": {
-          "lib/net4/SQLite.Net.Platform.Win32.dll": {
-            "assemblyVersion": "3.1.0.0",
-            "fileVersion": "3.1.0.0"
-          },
-          "lib/net40/SQLite.Net.Platform.Generic.dll": {
-            "assemblyVersion": "3.1.0.0",
-            "fileVersion": "3.1.0.0"
-          }
-        }
-      },
-      "SQLite.Net.Core-PCL/3.1.1": {
-        "runtime": {
-          "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {
-            "assemblyVersion": "3.1.0.0",
-            "fileVersion": "3.1.0.0"
-          }
-        }
-      },
-      "Xamarin.Forms/3.4.0.1009999": {
+      "Xamarin.Forms/3.3.0.967583": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
@@ -90,17 +53,6 @@
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.0.0"
-          }
-        }
-      },
-      "XamarinForms.CardView/1.1.1.5": {
-        "dependencies": {
-          "Xamarin.Forms": "3.4.0.1009999"
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {
-            "assemblyVersion": "1.1.1.5",
-            "fileVersion": "1.1.1.5"
           }
         }
       }
@@ -118,13 +70,6 @@
       "sha512": "sha512-os3xFYXdjzL7yYhdhHI3iN8hTMJIHK2FThoTtzRs0tNMEHos6ag3D3LpzTwFsXeqKq3n2rnpxMrHies7wmVWeg==",
       "path": "materialdesigncolors/1.1.3",
       "hashPath": "materialdesigncolors.1.1.3.nupkg.sha512"
-    },
-    "MaterialDesignThemes/2.5.0.1205": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-64hmvLRYeNfbTvALfNPfOBhdZEZCka8YpF1K+0yMFEbCA4kaiheEWee9FktLgQoBnvb48AmhNbqOjfKeXBRNFQ==",
-      "path": "materialdesignthemes/2.5.0.1205",
-      "hashPath": "materialdesignthemes.2.5.0.1205.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -147,33 +92,12 @@
       "path": "newtonsoft.json/12.0.1",
       "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
     },
-    "SQLite.Net-PCL/3.1.1": {
+    "Xamarin.Forms/3.3.0.967583": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YVmGTLKH1S1SRV6T2XJv+E7JIDYSsphAEakam3Os0Cgxn6YayuhqGZh+2JKacJfw31AjpYG6Li/qcRfXcUle8Q==",
-      "path": "sqlite.net-pcl/3.1.1",
-      "hashPath": "sqlite.net-pcl.3.1.1.nupkg.sha512"
-    },
-    "SQLite.Net.Core-PCL/3.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-oNeX60ZqLqly+lxGAxvOCoGte7Fc2OabE5rOTs0clMMcrip+SMpWlvWb7cn/LxRepwQZAotSNWxxqzztasRsyQ==",
-      "path": "sqlite.net.core-pcl/3.1.1",
-      "hashPath": "sqlite.net.core-pcl.3.1.1.nupkg.sha512"
-    },
-    "Xamarin.Forms/3.4.0.1009999": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-pgqRxgD23FJHG2B7zOxf4Fm+KYgoWctUJp8hNtdZgAt43RIiK3VgM11wJf3S0SkMIsXQCUL0yYQmR8gR/njltA==",
-      "path": "xamarin.forms/3.4.0.1009999",
-      "hashPath": "xamarin.forms.3.4.0.1009999.nupkg.sha512"
-    },
-    "XamarinForms.CardView/1.1.1.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-v0Km8qjwOO/TXoHEp0QvlzAS1bl6vJiVtyojYInT2a1pb0cjK/I4V8bWCHWFbXdZVO/vPonA5wW1l+9ByPL4ug==",
-      "path": "xamarinforms.cardview/1.1.1.5",
-      "hashPath": "xamarinforms.cardview.1.1.1.5.nupkg.sha512"
+      "sha512": "sha512-+Y5j017bAHyZquRMj4vWyudJeJw7xQk+8BUNpMXg91ttO7sGWGGd6TuAuJubF0iEihzMDY1McZV8ZLZCjqjwUQ==",
+      "path": "xamarin.forms/3.3.0.967583",
+      "hashPath": "xamarin.forms.3.3.0.967583.nupkg.sha512"
     }
   }
 }

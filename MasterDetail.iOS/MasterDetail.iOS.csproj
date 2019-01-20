@@ -162,6 +162,5 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\logo.png" />
-    <BundleResource Include="Resources\orangebg.png" />
   </ItemGroup>
 </Project>

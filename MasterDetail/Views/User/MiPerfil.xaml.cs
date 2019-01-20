@@ -19,9 +19,9 @@ namespace MasterDetail
             Carga(empaque);
         }
 
-        private void Carga(EmpaqueModel empaque)
+        private async void Carga(EmpaqueModel empaque)
         {
-            CargaPerfil(empaque);
+            await CargaPerfil(empaque);
         }
 
         private async Task CargaPerfil(EmpaqueModel emp)
@@ -31,16 +31,21 @@ namespace MasterDetail
 
             
 
-            lblRut.Text = emp.Rut.ToString();
-            lblName.Text = emp.FirstName.ToString();
-            lblLastname.Text = emp.LastName.ToString();
-            lblBirthdate.Text = emp.BirthDate.ToString();
-            lblAdress.Text = emp.Address.ToString();
-            lblPhone.Text = emp.PhoneNumber.ToString();
-            lblSuperm.Text = emp.Supermarket.ToString();
-            lblJobTitle.Text = emp.TypeUser.ToString();
+              lblRut.Text = emp.Rut.ToString();
+                 lblName.Text = emp.FirstName.ToString();
+                lblLastname.Text = emp.LastName.ToString();
+                 lblBirthdate.Text = emp.BirthDate.ToString();
+                  lblAdress.Text = emp.Address.ToString();
+                lblPhone.Text = emp.PhoneNumber.ToString();
+                lblSuperm.Text = emp.Supermarket.ToString();
+                 lblJobTitle.Text = emp.TypeUser.ToString();
 
             
+
+        }
+
+        private void Btn_EditarPerfil_Clicked(object sender, EventArgs e)
+        {
 
         }
     }

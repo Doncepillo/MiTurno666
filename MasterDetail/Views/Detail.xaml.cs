@@ -8,19 +8,14 @@ namespace MasterDetail
 {
     public partial class Detail : ContentPage
     {
-        EmpaqueModel empaque;
         public Detail(EmpaqueModel empaque)
         {
-            this.empaque = empaque;
             InitializeComponent();
-        }
 
-        public static Servicio.Service Servicio = new Servicio.Service();
-        public Detail()
-        {
-            InitializeComponent();
-        }
 
+
+            Bienvenido.Text = string.Format("Bienvenido a Miturno: {0} {1}", empaque.FirstName, empaque.LastName);
+        }
         private async void ListaTurnos(object sender, EventArgs e)
         {
 
@@ -48,9 +43,5 @@ namespace MasterDetail
             Navigation.PushAsync(new MisNotificaciones());
 
         }
-
-
-
     }
-
 }

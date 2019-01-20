@@ -2,8 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MasterDetail.Login"
+             NavigationPage.HasNavigationBar="False"
              BackgroundImage="orangebg.png"
-             Title="Iniciar Sesión">
+             >
     <ContentPage.Padding>
 
         <OnPlatform x:TypeArguments="Thickness">
@@ -17,8 +18,8 @@
     <ContentPage.Content >
         <ScrollView>
             <StackLayout Margin="25">
-                
-                
+
+
                 <Image Source="logo.png" VerticalOptions="Start" Margin="0,3,0,0"></Image>
 
 
@@ -32,10 +33,11 @@
                 </StackLayout>
                 <ActivityIndicator x:Name="waitActivityIndicator" HorizontalOptions="Center" VerticalOptions="Center"/>
                 <Button Text="Ingresar" Clicked="Ingresar" BorderRadius="20" BackgroundColor="orange" TextColor="White" HeightRequest="50" FontSize="17" VerticalOptions="Start" />
-                
-                    <Button Text="¿Deseas crear una cuenta?" Clicked="Btn_Register" Margin="0,30,0,0" HorizontalOptions="Center"/>
-               
+
+                <Button Text="¿Deseas crear una cuenta?" BorderRadius="20" BackgroundColor="Orange" Clicked="Btn_Register" Margin="0,30,0,0" HorizontalOptions="Center"/>
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
+

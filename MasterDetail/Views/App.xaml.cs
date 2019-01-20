@@ -17,9 +17,9 @@ namespace MasterDetail
             using (var datos = new DataAccess())
             {
                 var empaque = datos.GetEmpaques().FirstOrDefault();
-                if (empaque != null)
+                if(empaque!= null)
                 {
-                    MainPage = new NavigationPage(new Login());
+                    MainPage = new NavigationPage(new MainPage(empaque));
                 }
                 else
                 {

@@ -20,16 +20,39 @@ namespace MasterDetail
 
         private void Cargar() {
 
-            GrillaTurnosAsync();
+             GrillaTurnosAsync();
         }
         private async Task GrillaTurnosAsync()
         {
+            waitActivityIndicator.IsRunning = true;
             string response = await Service.GetAllApi("api/turn");
 
             List<Turnos> turnos =  JsonConvert.DeserializeObject<List<Turnos>>(response);
-            LV_Turnos.ItemsSource = turnos;
+            waitActivityIndicator.IsRunning = false;
+
+             LV_Turnos.ItemsSource = turnos;
         }
 
-   
+        private void TomarTurno(object sender, ItemTappedEventArgs e)
+        {
+            Turnos item =(Turnos) e.Item;
+
+            //tengo que cambiar en la base de datos la funcionalidad del campo Maximuncap
+            Turnos turno = new Turnos()
+            {
+                Id=item.Id
+                
+                
+            };
+
+          //  Service.Post("api/",)
+
+            DisplayAlert(" ", item.MaximunCap.ToString(), "ok");
+            
+            
+            
+        }
+
+       
     }
 }
