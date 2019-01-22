@@ -41,6 +41,18 @@
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
+      "Xamarin.Auth/1.6.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Json"
+        ],
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        }
+      },
       "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
@@ -172,6 +184,7 @@
           "MaterialDesignThemes": "2.5.0.1205",
           "Newtonsoft.Json": "12.0.1",
           "SQLite.Net-PCL": "3.1.1",
+          "Xamarin.Auth": "1.6.0.4",
           "Xamarin.Forms": "3.4.0.1009999"
         },
         "compile": {
@@ -222,6 +235,18 @@
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
+      "Xamarin.Auth/1.6.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Json"
+        ],
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        }
+      },
       "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
@@ -353,6 +378,7 @@
           "MaterialDesignThemes": "2.5.0.1205",
           "Newtonsoft.Json": "12.0.1",
           "SQLite.Net-PCL": "3.1.1",
+          "Xamarin.Auth": "1.6.0.4",
           "Xamarin.Forms": "3.4.0.1009999"
         },
         "compile": {
@@ -403,6 +429,18 @@
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
+      "Xamarin.Auth/1.6.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Json"
+        ],
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        }
+      },
       "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
@@ -534,6 +572,7 @@
           "MaterialDesignThemes": "2.5.0.1205",
           "Newtonsoft.Json": "12.0.1",
           "SQLite.Net-PCL": "3.1.1",
+          "Xamarin.Auth": "1.6.0.4",
           "Xamarin.Forms": "3.4.0.1009999"
         },
         "compile": {
@@ -584,6 +623,18 @@
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
+      "Xamarin.Auth/1.6.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Json"
+        ],
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        }
+      },
       "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
@@ -715,6 +766,7 @@
           "MaterialDesignThemes": "2.5.0.1205",
           "Newtonsoft.Json": "12.0.1",
           "SQLite.Net-PCL": "3.1.1",
+          "Xamarin.Auth": "1.6.0.4",
           "Xamarin.Forms": "3.4.0.1009999"
         },
         "compile": {
@@ -889,11 +941,10 @@
       ]
     },
     "Newtonsoft.Json/12.0.1": {
-      "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "sha512": "jmVyoEyk0In8r+AObYQyFKVFm7uSRzE0XSHSbEtBJcZDMV6DqJoyB4FLcHwprPVhAh826so0db3DIKXVnpGoPA==",
       "type": "package",
       "path": "newtonsoft.json/12.0.1",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
@@ -960,12 +1011,41 @@
         "sqlite.net.core-pcl.nuspec"
       ]
     },
+    "Xamarin.Auth/1.6.0.4": {
+      "sha512": "Z29LQBGqx9+QOJNU9ZHjuQt4L4S4z0k51IzKI9J3UGsNOd1w7/SqBBHvkGs799ImcR0B4ft8HpzwBpvwHggmUA==",
+      "type": "package",
+      "path": "xamarin.auth/1.6.0.4",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid10/Xamarin.Auth.dll",
+        "lib/Xamarin.iOS10/Xamarin.Auth.dll",
+        "lib/netstandard1.0/Xamarin.Auth.dll",
+        "lib/netstandard1.6/Xamarin.Auth.dll",
+        "lib/portable-net45 wp8 wpa81 win8 MonoAndroid10 MonoTouch10 XamarinIOS10/Xamarin.Auth.dll",
+        "lib/uap10.0/Xamarin.Auth.dll",
+        "lib/uap10.0/Xamarin.Auth.pri",
+        "lib/uap10.0/Xamarin.Auth/WebAuthenticatorPage.xbf",
+        "lib/uap10.0/Xamarin.Auth/Xamarin.Auth.xr.xml",
+        "lib/win81/Xamarin.Auth.dll",
+        "lib/win81/Xamarin.Auth.pri",
+        "lib/win81/Xamarin.Auth/WebAuthenticatorPage.xaml",
+        "lib/win81/Xamarin.Auth/WebAuthenticatorPage.xbf",
+        "lib/win81/Xamarin.Auth/Xamarin.Auth.xr.xml",
+        "lib/wp8/Xamarin.Auth.dll",
+        "lib/wpa81/Xamarin.Auth.dll",
+        "lib/wpa81/Xamarin.Auth.pri",
+        "lib/wpa81/Xamarin.Auth/WebAuthenticatorPage.xaml",
+        "lib/wpa81/Xamarin.Auth/WebAuthenticatorPage.xbf",
+        "lib/wpa81/Xamarin.Auth/Xamarin.Auth.xr.xml",
+        "xamarin.auth.1.6.0.4.nupkg.sha512",
+        "xamarin.auth.nuspec"
+      ]
+    },
     "Xamarin.Forms/3.3.0.967583": {
-      "sha512": "+Y5j017bAHyZquRMj4vWyudJeJw7xQk+8BUNpMXg91ttO7sGWGGd6TuAuJubF0iEihzMDY1McZV8ZLZCjqjwUQ==",
+      "sha512": "aebAEUHkER6WRo4WpsDd8jq4EudSl3WS4n7Pxcq8ea+x9fHi9PstCU0dU2D5PGvSeKa3yEFSpRljOEjI7qtsNA==",
       "type": "package",
       "path": "xamarin.forms/3.3.0.967583",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "build/Xamarin.Forms.DefaultItems.props",
         "build/Xamarin.Forms.DefaultItems.targets",
@@ -990,11 +1070,13 @@
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
+        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
@@ -1119,34 +1201,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\exe_6\\.nuget\\packages\\": {}
+    "/Users/Toga/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail.iOS\\MasterDetail.iOS.csproj",
+      "projectUniqueName": "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/MasterDetail.iOS.csproj",
       "projectName": "MasterDetail.iOS",
-      "projectPath": "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail.iOS\\MasterDetail.iOS.csproj",
-      "packagesPath": "C:\\Users\\exe_6\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail.iOS\\obj\\",
+      "projectPath": "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/MasterDetail.iOS.csproj",
+      "packagesPath": "/Users/Toga/.nuget/packages/",
+      "outputPath": "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj",
       "projectStyle": "PackageReference",
-      "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\exe_6\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/Toga/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail\\MasterDetail.csproj": {
-              "projectPath": "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail\\MasterDetail.csproj"
+            "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail/MasterDetail.csproj": {
+              "projectPath": "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail/MasterDetail.csproj"
             }
           }
         }
@@ -1179,7 +1258,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Degradación del paquete detectada: Xamarin.Forms de 3.4.0.1009999 a 3.3.0.967583. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n MasterDetail.iOS -> MasterDetail -> Xamarin.Forms (>= 3.4.0.1009999) \r\n MasterDetail.iOS -> Xamarin.Forms (>= 3.3.0.967583)",
+      "message": "Detected package downgrade: Xamarin.Forms from 3.4.0.1009999 to 3.3.0.967583. Reference the package directly from the project to select a different version. \n MasterDetail.iOS -> MasterDetail -> Xamarin.Forms (>= 3.4.0.1009999) \n MasterDetail.iOS -> Xamarin.Forms (>= 3.3.0.967583)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",
@@ -1191,16 +1270,7 @@
     {
       "code": "NU1202",
       "level": "Error",
-      "message": "El paquete MaterialDesignThemes 2.5.0.1205 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0). El paquete MaterialDesignThemes 2.5.0.1205 admite: net45 (.NETFramework,Version=v4.5)",
-      "libraryId": "MaterialDesignThemes",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "El paquete MaterialDesignColors 1.1.3 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0). El paquete MaterialDesignColors 1.1.3 admite: net45 (.NETFramework,Version=v4.5)",
+      "message": "Package MaterialDesignColors 1.1.3 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Package MaterialDesignColors 1.1.3 supports: net45 (.NETFramework,Version=v4.5)",
       "libraryId": "MaterialDesignColors",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0"
@@ -1209,16 +1279,16 @@
     {
       "code": "NU1202",
       "level": "Error",
-      "message": "El paquete MaterialDesignThemes 2.5.0.1205 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win. El paquete MaterialDesignThemes 2.5.0.1205 admite: net45 (.NETFramework,Version=v4.5)",
+      "message": "Package MaterialDesignThemes 2.5.0.1205 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Package MaterialDesignThemes 2.5.0.1205 supports: net45 (.NETFramework,Version=v4.5)",
       "libraryId": "MaterialDesignThemes",
       "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0/win"
+        "Xamarin.iOS,Version=v1.0"
       ]
     },
     {
       "code": "NU1202",
       "level": "Error",
-      "message": "El paquete MaterialDesignColors 1.1.3 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win. El paquete MaterialDesignColors 1.1.3 admite: net45 (.NETFramework,Version=v4.5)",
+      "message": "Package MaterialDesignColors 1.1.3 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Package MaterialDesignColors 1.1.3 supports: net45 (.NETFramework,Version=v4.5)",
       "libraryId": "MaterialDesignColors",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0/win"
@@ -1227,16 +1297,16 @@
     {
       "code": "NU1202",
       "level": "Error",
-      "message": "El paquete MaterialDesignThemes 2.5.0.1205 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. El paquete MaterialDesignThemes 2.5.0.1205 admite: net45 (.NETFramework,Version=v4.5)",
+      "message": "Package MaterialDesignThemes 2.5.0.1205 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Package MaterialDesignThemes 2.5.0.1205 supports: net45 (.NETFramework,Version=v4.5)",
       "libraryId": "MaterialDesignThemes",
       "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0/win-x64"
+        "Xamarin.iOS,Version=v1.0/win"
       ]
     },
     {
       "code": "NU1202",
       "level": "Error",
-      "message": "El paquete MaterialDesignColors 1.1.3 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. El paquete MaterialDesignColors 1.1.3 admite: net45 (.NETFramework,Version=v4.5)",
+      "message": "Package MaterialDesignColors 1.1.3 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Package MaterialDesignColors 1.1.3 supports: net45 (.NETFramework,Version=v4.5)",
       "libraryId": "MaterialDesignColors",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0/win-x64"
@@ -1245,8 +1315,17 @@
     {
       "code": "NU1202",
       "level": "Error",
-      "message": "El paquete MaterialDesignThemes 2.5.0.1205 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. El paquete MaterialDesignThemes 2.5.0.1205 admite: net45 (.NETFramework,Version=v4.5)",
+      "message": "Package MaterialDesignThemes 2.5.0.1205 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Package MaterialDesignThemes 2.5.0.1205 supports: net45 (.NETFramework,Version=v4.5)",
       "libraryId": "MaterialDesignThemes",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package MaterialDesignColors 1.1.3 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Package MaterialDesignColors 1.1.3 supports: net45 (.NETFramework,Version=v4.5)",
+      "libraryId": "MaterialDesignColors",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0/win-x86"
       ]
@@ -1254,8 +1333,8 @@
     {
       "code": "NU1202",
       "level": "Error",
-      "message": "El paquete MaterialDesignColors 1.1.3 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. El paquete MaterialDesignColors 1.1.3 admite: net45 (.NETFramework,Version=v4.5)",
-      "libraryId": "MaterialDesignColors",
+      "message": "Package MaterialDesignThemes 2.5.0.1205 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Package MaterialDesignThemes 2.5.0.1205 supports: net45 (.NETFramework,Version=v4.5)",
+      "libraryId": "MaterialDesignThemes",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0/win-x86"
       ]

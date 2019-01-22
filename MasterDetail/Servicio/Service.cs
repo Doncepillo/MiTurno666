@@ -65,5 +65,10 @@ namespace MasterDetail.Servicio
                 return (json);
             }
         }
+
+        internal static Task<HttpResponseMessage> Put(string v, EmpaqueModel empaque)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

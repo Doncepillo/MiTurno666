@@ -8,6 +8,9 @@ using MasterDetail;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Newtonsoft.Json;
+using Xamarin.Auth;
+using System.Json;
+using MasterDetail.Views;
 
 namespace MasterDetail
 {
@@ -77,5 +80,11 @@ namespace MasterDetail
             Navigation.PushAsync(new Register());
 
         }
+
+
+
+
     }
+
+
 }

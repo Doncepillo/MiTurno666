@@ -2,9 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MasterDetail.Login"
-             NavigationPage.HasNavigationBar="False"
              BackgroundImage="orangebg.png"
-             >
+             Title="Iniciar Sesión">
     <ContentPage.Padding>
 
         <OnPlatform x:TypeArguments="Thickness">
@@ -32,12 +31,12 @@
                     <Switch x:Name="remenberMeSwitch" HorizontalOptions="End" VerticalOptions="Center"/>
                 </StackLayout>
                 <ActivityIndicator x:Name="waitActivityIndicator" HorizontalOptions="Center" VerticalOptions="Center"/>
-                <Button Text="Ingresar" Clicked="Ingresar" BorderRadius="20" BackgroundColor="orange" TextColor="White" HeightRequest="50" FontSize="17" VerticalOptions="Start" />
-
-                <Button Text="¿Deseas crear una cuenta?" BorderRadius="20" BackgroundColor="Orange" Clicked="Btn_Register" Margin="0,30,0,0" HorizontalOptions="Center"/>
+                <Button Text="Ingresar" Clicked="Ingresar" BorderRadius="20" BackgroundColor="orange" TextColor="White" HeightRequest="40" FontSize="17" VerticalOptions="Start" />
+                <Label Text="o" HorizontalOptions="CenterAndExpand" Grid.ColumnSpan="2" Grid.Row="0" Grid.Column="0" VerticalOptions="Center" FontSize="15"/>
+                <Button Text="Login con Facebook" Clicked="Btn_Register" BorderRadius="20" BackgroundColor="Navy" TextColor="White" HeightRequest="40" FontSize="17" VerticalOptions="Start" />
+                <Button Text="¿Deseas crear una cuenta?" Clicked="Btn_Register" Margin="0,5,0,0" HorizontalOptions="Center"/>
 
             </StackLayout>
-        </ScrollView>
-    </ContentPage.Content>
-</ContentPage>
-
+            </ScrollView>
+        </ContentPage.Content>
+    </ContentPage>

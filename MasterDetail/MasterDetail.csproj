@@ -15,6 +15,7 @@
     <PackageReference Include="SQLite.Net-PCL" Version="3.1.1" />
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1009999" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Xamarin.Auth" Version="1.6.0.4" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Detail.cs" />
@@ -2027,5 +2028,11 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Java.Interop" />
   </ItemGroup>
 </Project>

@@ -62,65 +62,271 @@
 /Users/Toga/Desktop/ultima semana/MiTurno666-Backend/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.pdb
 /Users/Toga/Desktop/ultima semana/MiTurno666-Backend/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/orangebg.png
 /Users/Toga/Desktop/ultima semana/MiTurno666-Backend/MasterDetail.iOS/bin/iPhoneSimulator/Debug/CardView.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\MasterDetail.iOS.exe
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\MasterDetail.iOS.pdb
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.pdb
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\SQLite.Net.Platform.XamarinIOS.Unified.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\SQLite.Net.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.pdb
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\CardView.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\MasterDetail.dll
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\bin\iPhoneSimulator\Debug\MasterDetail.pdb
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\obj\iPhoneSimulator\Debug\optimized\
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\obj\iPhoneSimulator\Debug\MasterDetail.iOS.csprojAssemblyReference.cache
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\obj\iPhoneSimulator\Debug\MasterDetail.iOS.csproj.CoreCompileInputs.cache
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\obj\iPhoneSimulator\Debug\MasterDetail.iOS.csproj.CopyComplete
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\obj\iPhoneSimulator\Debug\MasterDetail.iOS.exe
-C:\Users\exe_6\Desktop\IntentoMERGE\MasterDetail.iOS\obj\iPhoneSimulator\Debug\MasterDetail.iOS.pdb
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/MasterDetail.iOS.exe
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/MasterDetail.iOS.pdb
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.pdb
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/SQLite.Net.Platform.XamarinIOS.Unified.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/SQLite.Net.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/CardView.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/MasterDetail.dll
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/bin/iPhoneSimulator/Debug/MasterDetail.pdb
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/obj/iPhoneSimulator/Debug/optimized/
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.csprojAssemblyReference.cache
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.csproj.CoreCompileInputs.cache
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.csproj.CopyComplete
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.exe
+C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.pdb
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/MasterDetail.iOS.exe
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/MasterDetail.iOS.pdb
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.pdb
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/SQLite.Net.Platform.XamarinIOS.Unified.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/SQLite.Net.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/MasterDetail.dll
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/MasterDetail.pdb
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/actool/_PartialAppManifest.items
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/actool/_BundleResourceWithLogicalName.items
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/coremlc/_PartialAppManifest.items
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/coremlc/_BundleResourceWithLogicalName.items
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/logo.png
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/orangebg.png
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.csprojAssemblyReference.cache
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.csproj.CoreCompileInputs.cache
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.csproj.CopyComplete
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.exe
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.pdb
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/0.png
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/Listaturnos.png
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/Mirendimiento.png
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/Misturnos.png
+/Users/Toga/Desktop/que tenes artrosis en las piernas/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/Notificaciones.png
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/MasterDetail.iOS.exe
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/MasterDetail.iOS.pdb
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.pdb
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/SQLite.Net.Platform.XamarinIOS.Unified.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/SQLite.Net.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/MasterDetail.dll
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/MasterDetail.pdb
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/actool/_PartialAppManifest.items
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/actool/_BundleResourceWithLogicalName.items
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/coremlc/_PartialAppManifest.items
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/coremlc/_BundleResourceWithLogicalName.items
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/logo.png
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/orangebg.png
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/0.png
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/Listaturnos.png
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/Mirendimiento.png
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/Misturnos.png
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/Notificaciones.png
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.csprojAssemblyReference.cache
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.csproj.CoreCompileInputs.cache
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.csproj.CopyComplete
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.exe
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.pdb
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/MasterDetail.iOS.exe
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/MasterDetail.iOS.pdb
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.pdb
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/SQLite.Net.Platform.XamarinIOS.Unified.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/SQLite.Net.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Auth.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/MasterDetail.dll
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/bin/iPhoneSimulator/Debug/MasterDetail.pdb
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/actool/_PartialAppManifest.items
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/actool/_BundleResourceWithLogicalName.items
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/coremlc/_PartialAppManifest.items
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/coremlc/_BundleResourceWithLogicalName.items
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/logo.png
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/orangebg.png
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/0.png
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/Listaturnos.png
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/Mirendimiento.png
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/Misturnos.png
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/Notificaciones.png
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.csprojAssemblyReference.cache
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.csproj.CoreCompileInputs.cache
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.csproj.CopyComplete
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.exe
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.pdb
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/Fblogo.png

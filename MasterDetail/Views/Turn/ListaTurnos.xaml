@@ -1,45 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MasterDetail.ListaTurnos">
+             x:Class="MasterDetail.ListaTurnos"
+             Title="Lista de Turnos">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Lista de Turnos"/>
-            <ActivityIndicator x:Name="waitActivityIndicator" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <ScrollView>
+            <StackLayout>
+                <ActivityIndicator x:Name="waitActivityIndicator" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <ListView x:Name="LV_Turnos"  HasUnevenRows="True" ItemTapped="TomarTurno" >
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell  x:Name="Turno" Height="180"  >
+                                    <Grid Margin="0,20,0,30">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="*"/>
+                                        </Grid.RowDefinitions>
+                                            <Image Grid.Column="0" Grid.RowSpan="4" HeightRequest="150" VerticalOptions="Center" HorizontalOptions="Start" Source="0.png"/>
+                                            <Label  Text="Estado: "  HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="1" />
+                                            <Label  Text="Fecha de Turno: " HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="1"/>
+                                            <Label  Text="Hora de Inicio: " HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="1" />
+                                            <Label  Text="Hora de Término: " HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="3" Grid.Column="1" />
+                                            <Label  Text="Jornada: "  HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="4" Grid.Column="1" />
 
-            <ListView x:Name="LV_Turnos"  HasUnevenRows="True" ItemTapped="TomarTurno" >
-                
-                <ListView.ItemTemplate>
-                    
-                    <DataTemplate>
-
-                        <ViewCell  x:Name="Turno" Height="80" >
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="*"/>
-                                </Grid.ColumnDefinitions>
-                                
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="*"/>
-                                    <RowDefinition Height="*"/>
-                                    <RowDefinition Height="*"/>
-                                </Grid.RowDefinitions>
-                                <Image Grid.Column="0" Grid.RowSpan="2" HeightRequest="30" VerticalOptions="Center" HorizontalOptions="Start" Source="asignarTurno.png"  />
-                                <Label  Text="HoraInicio: " HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="1" />
-                                <Label  Text="Fecha del turno: " HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="1"/>
-                                <Label  Text="Jornada: "  HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="3" Grid.Column="1" />
-                                <Label x:Name="Fecha" Grid.Column="2" Grid.Row="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding Initiation}"/>
-                                <Label x:Name="FechaFin" Grid.Column="2" Grid.Row="2" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding TurnDate}"/>
-                                <Label x:Name="lblJornada" Grid.Column="2" Grid.Row="3" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding WorkingDay}"/>
-                            </Grid>
-                        </ViewCell>
-
-                    </DataTemplate>
-                    
-                </ListView.ItemTemplate>
-            </ListView>
-        </StackLayout>
+                                            <Label x:Name="TurnState" Grid.Column="2" Grid.Row="0" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding TurnState}"/>
+                                            <Label x:Name="TurnDate" Grid.Column="2" Grid.Row="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding TurnDate}"/>
+                                            <Label x:Name="Initiation" Grid.Column="2" Grid.Row="2" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding Initiation}"/>
+                                            <Label x:Name="Finished" Grid.Column="2" Grid.Row="3" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding Finished}"/>
+                                            <Label x:Name="WorkingDay" Grid.Column="2" Grid.Row="4" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding WorkingDay}"/>
+                                </Grid>    
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

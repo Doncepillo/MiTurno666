@@ -3,3 +3,7 @@
 /Users/Toga/Desktop/ultima semana/MiTurno666-Backend/MasterDetail.Android/obj/Debug/MasterDetail.Android.csprojAssemblyReference.cache
 /Users/Toga/Desktop/ultima semana/MiTurno666-Backend/MasterDetail.Android/obj/Debug/libraryimports.cache.stamp
 /Users/Toga/Desktop/ultima semana/MiTurno666-Backend/MasterDetail.Android/obj/Debug/res.flag
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.Android/obj/Debug/MasterDetail.Android.nuget.stamp
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.Android/obj/Debug/MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.Android/obj/Debug/libraryimports.cache.stamp
+/Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail.Android/obj/Debug/res.flag

@@ -3,28 +3,65 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MasterDetail.MiPerfil"
              BackgroundImage="orangebg.png"
-             >
+             Title="Mi Perfil">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Mi Perfil" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Large"/>
-            
-            <Entry x:Name="lblRut" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <ScrollView>
 
-            <Entry x:Name="lblName" Text="" HorizontalOptions="Center" VerticalOptions="Center" />
-            <Entry x:Name="lblLastname" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Entry x:Name="lblSuperm" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Entry x:Name="lblPhone" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Entry x:Name="lblBirthdate" Text="{Binding StringFormat='{0:DD MM,YYYY}'}" HorizontalOptions="Center" VerticalOptions="Center" />
-            <Entry x:Name="lblGender" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Entry x:Name="lblAdress" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Entry x:Name="lblJobTitle" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Button x:Name="Btn_EditarPerfil" Clicked="Btn_EditarPerfil_Clicked" HorizontalOptions="Center" VerticalOptions="Center" />
+            <StackLayout Margin="20">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
 
+                    <Label Text="Datos Personales" Grid.Row="0" Grid.ColumnSpan="2" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Large"/>
 
+                    <Label Text="Rut " Grid.Row="1" Grid.Column="0" FontSize="15"/>
+                    <Entry x:Name="lblRut" Keyboard="Numeric" Grid.Row="1" Grid.Column="1" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
+                    <Label Text="Email: " Grid.Row="2" Grid.Column="0" />
+                    <Entry x:Name="lblEmail" Grid.Row="2" Grid.Column="1" Text="" Keyboard="Email" Opacity="0.8" HeightRequest="25" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
+                    <Label Text="Contraseña: " Grid.Row="3" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>
+                    <Entry x:Name="lblPass" Grid.Row="3" Grid.Column="1" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
+                    <Label Text="Nombre: " Grid.Row="4" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>
+                    <Entry x:Name="lblName" Grid.Row="4" Grid.Column="1" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
+                    <Label Text="Apellido: " Grid.Row="5" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>
+                    <Entry x:Name="lblLastname" Grid.Row="5" Grid.Column="1" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
+                    <Label Text="Supermercado: " Grid.Row="6" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>
+                    <Picker x:Name="lblSuperm" Grid.Row="6" Grid.Column="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
+                    <Label Text="Telefono: " Grid.Row="7" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>
+                    <Entry x:Name="lblPhone" Keyboard="Telephone" Grid.Row="7" Grid.Column="1" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
+                    <Label Text="Fecha nacimiento: " Grid.Row="8" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>
+                    <DatePicker x:Name="dtpNacimiento" Grid.Row="8" Grid.Column="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15">
+                    </DatePicker>
+                    <Label Text="Genero: " Grid.Row="9" Grid.Column="0" Opacity="0.8" HeightRequest="25" />
+                    <Entry x:Name="lblGender" Grid.Row="9" Grid.Column="1" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
+                    <Label Text="Dirección: " Grid.Row="10" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>
+                    <Entry x:Name="lblAdress" Grid.Row="10" Grid.Column="1" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
+                    <Label Text="Tipo: " Grid.Row="11" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>
+                    <Entry x:Name="lblJobTitle" Grid.Row="11" Grid.Column="1" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
+                    <ActivityIndicator x:Name="waitActivityIndicator" Grid.Row="12" Grid.ColumnSpan="2" HorizontalOptions="Center" VerticalOptions="Center"/>
 
+                    <Button x:Name="Btn_EditarPerfil" Grid.Row="13"  Grid.ColumnSpan="2" Text="Editar" Clicked="Btn_EditarPerfil_Clicked" BackgroundColor="orange" TextColor="White" BorderRadius="20" HeightRequest="50" FontSize="17" HorizontalOptions="FillAndExpand" VerticalOptions="Start"/>
 
-
-
-        </StackLayout>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
-</ContentPage>
+    </ContentPage>

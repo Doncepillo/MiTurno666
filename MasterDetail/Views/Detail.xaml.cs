@@ -14,7 +14,7 @@ namespace MasterDetail
 
 
 
-            Bienvenido.Text = string.Format("Bienvenido a Miturno: {0} {1}", empaque.FirstName, empaque.LastName);
+            Bienvenido.Text = string.Format("Bienvenid@ a Miturno.com: {0} {1}", empaque.FirstName, empaque.LastName);
         }
         private async void ListaTurnos(object sender, EventArgs e)
         {

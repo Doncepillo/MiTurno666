@@ -25,7 +25,8 @@ namespace MasterDetail
         public DateTime Initiation { get; set; }
 
         [JsonProperty("Finished")]
-        public DateTime Finished { get; set; } 
+        public DateTime Finished { get; set; }
+         
         [JsonProperty("TurnDate")]
         public DateTime TurnDate { get; set; }
 
