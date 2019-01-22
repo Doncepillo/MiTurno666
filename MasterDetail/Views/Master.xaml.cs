@@ -55,9 +55,13 @@ namespace MasterDetail
 
         private async void BtnCerrarSesion_Clicked(object sender, EventArgs e)
         {
-            Application.Current.Properties["IsLoggedIn"] = false;
-            await Application.Current.SavePropertiesAsync();
-            Application.Current.MainPage = new Login();
+            using (var datos = new DataAccess())
+            {
+                datos.DeleteEmpaque(this.empaque);
+
+            }
+
+            await Navigation.PushAsync(new Login());
         }
     }
 }

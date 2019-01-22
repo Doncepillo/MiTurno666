@@ -66,9 +66,23 @@ namespace MasterDetail.Servicio
             }
         }
 
-        internal static Task<HttpResponseMessage> Put(string v, EmpaqueModel empaque)
+        public static async Task<HttpResponseMessage> Put(string path, Object objeto)
         {
-            throw new NotImplementedException();
+            var url = new Uri($"{BASE}/{path}");
+
+            HttpResponseMessage response;
+
+            using (var httpClient = new HttpClient())
+            {
+                response = await httpClient.PutAsync(url,
+                                                        new StringContent(
+                                                            Newtonsoft.Json.JsonConvert.SerializeObject(objeto),
+                                                            Encoding.UTF8,
+                                                            "application/json")
+                                                     );
+            }
+
+            return response;
         }
     }
 }

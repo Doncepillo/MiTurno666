@@ -72,7 +72,7 @@ namespace MasterDetail
 
             try
             {
-                HttpResponseMessage response = await Service.Post("api/user/" + empa.Id.ToString(), empaque);
+                HttpResponseMessage response = await Service.Put("api/user/" + empa.Id.ToString(), empaque);
                 if (response.StatusCode != System.Net.HttpStatusCode.NotFound)
                 {
                     waitActivityIndicator.IsRunning = false;
@@ -95,7 +95,7 @@ namespace MasterDetail
             {
                 Btn_EditarPerfil.IsEnabled = true;
 
-                await DisplayAlert("Error de edición", "Error al editar empaque", "Ok");
+                await DisplayAlert("Error de edición", "Error al editar empaque "+ ex, "Ok");
                 return;
             }
         }

@@ -44,7 +44,7 @@
                     <Label Text="Apellido: " Grid.Row="5" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>
                     <Entry x:Name="lblLastname" Grid.Row="5" Grid.Column="1" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
                     <Label Text="Supermercado: " Grid.Row="6" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>
-                    <Picker x:Name="lblSuperm" Grid.Row="6" Grid.Column="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
+                    <Picker x:Name="lblSuperm" Grid.Row="6" Grid.Column="1" ItemDisplayBinding="{Binding SpmName}" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
                     <Label Text="Telefono: " Grid.Row="7" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>
                     <Entry x:Name="lblPhone" Keyboard="Telephone" Grid.Row="7" Grid.Column="1" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
                     <Label Text="Fecha nacimiento: " Grid.Row="8" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>

@@ -14,7 +14,7 @@
                                     <Grid Margin="0,20,0,30">
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="*"/>
-                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="150"/>
                                             <ColumnDefinition Width="*"/>
                                         </Grid.ColumnDefinitions>
                                         
@@ -23,7 +23,7 @@
                                             <RowDefinition Height="*"/>
                                             <RowDefinition Height="*"/>
                                         </Grid.RowDefinitions>
-                                            <Image Grid.Column="0" Grid.RowSpan="4" HeightRequest="150" VerticalOptions="Center" HorizontalOptions="Start" Source="0.png"/>
+                                            <Image Grid.Column="0" Grid.RowSpan="2" HeightRequest="50" WidthRequest="50" VerticalOptions="Center" HorizontalOptions="Start" Source="0.png"/>
                                             <Label  Text="Estado: "  HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="1" />
                                             <Label  Text="Fecha de Turno: " HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="1"/>
                                             <Label  Text="Hora de Inicio: " HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="1" />
