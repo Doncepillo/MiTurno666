@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MasterDetail.MisTurnos"
              BackgroundImage="orangebg.png"
+             NavigationPage.BackButtonTitle="MiTurnoAPP"
              Title="Mis Turnos">
     <ContentPage.Content>
         <ScrollView>

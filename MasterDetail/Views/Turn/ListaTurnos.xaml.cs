@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using System.Globalization;
 
 namespace MasterDetail
 {
@@ -16,12 +17,15 @@ namespace MasterDetail
         {
             InitializeComponent();
             Cargar();
+            NavigationPage.SetBackButtonTitle(this, "MiTurnoAPP");
+
         }
 
-        private void Cargar() {
-
+        private void Cargar()
+        {
              GrillaTurnosAsync();
         }
+
         private async Task GrillaTurnosAsync()
         {
             waitActivityIndicator.IsRunning = true;
@@ -30,8 +34,14 @@ namespace MasterDetail
             List<Turnos> turnos =  JsonConvert.DeserializeObject<List<Turnos>>(response);
             waitActivityIndicator.IsRunning = false;
 
-             LV_Turnos.ItemsSource = turnos;
+            LV_Turnos.ItemsSource = turnos;
+
         }
+
+
+
+
+
 
         private void TomarTurno(object sender, ItemTappedEventArgs e)
         {

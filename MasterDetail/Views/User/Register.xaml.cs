@@ -15,20 +15,18 @@ namespace MasterDetail.Views.User
 
         private List<Supermercado> supermercados;
        
-
-
         public Register()
         {
             InitializeComponent();
-
             Cargar();
-           
+            NavigationPage.SetBackButtonTitle(this, "MiTurnoAPP");
         }
 
         private void Cargar()
         {
             Cargapicker();
         }
+
         private async void Cargapicker()
         {
             string response = await Service.GetAllApi("api/supermarket");
@@ -39,6 +37,10 @@ namespace MasterDetail.Views.User
 
         }
 
+        public void ShowPass(object sender, EventArgs args)
+        {
+            Contraseña.IsPassword = !Contraseña.IsPassword;
+        }
 
         private async void Registrar(object sender, EventArgs e)
         {
@@ -55,12 +57,15 @@ namespace MasterDetail.Views.User
                 
             };
 
-            
 
-            HttpResponseMessage response = await Service.Post("api/User", empaque);
+         
+
+
+                HttpResponseMessage response = await Service.Post("api/User", empaque);
             if (response.StatusCode != System.Net.HttpStatusCode.NotFound)
             {
-                await Navigation.PushAsync(new Login());
+                    await DisplayAlert("¡Bienvenido!", "Registro realizado con éxito", "Ok");
+                    await Navigation.PushAsync(new Login());
             }
             else
             {

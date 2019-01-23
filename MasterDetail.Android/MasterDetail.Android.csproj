@@ -88,6 +88,8 @@
     <AndroidResource Include="Resources\drawable\Mirendimiento.png" />
     <AndroidResource Include="Resources\drawable\Misturnos.png" />
     <AndroidResource Include="Resources\drawable\Notificaciones.png" />
+    <AndroidResource Include="Resources\drawable\loginpass.png" />
+    <AndroidResource Include="Resources\drawable\0.png" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

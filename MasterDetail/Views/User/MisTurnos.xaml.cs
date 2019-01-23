@@ -16,11 +16,11 @@ namespace MasterDetail
         {
             InitializeComponent();
             Cargar();
+            NavigationPage.SetBackButtonTitle(this, "MiTurnoAPP");
         }
 
         private void Cargar()
         {
-
             GrillaTurnosAsync();
         }
         private async Task GrillaTurnosAsync()

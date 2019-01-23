@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration;
 using System.Net.Http;
+using System.Text.RegularExpressions;
 
 namespace MasterDetail
 {
@@ -14,11 +15,14 @@ namespace MasterDetail
     {
         EmpaqueModel empa;
         List<Supermercado> listaSuperm;
+
+
         public MiPerfil(EmpaqueModel empaque)
         {
             this.empa = empaque;
             InitializeComponent();
             Carga(empa);
+            NavigationPage.SetBackButtonTitle(this, "MiTurnoAPP");
         }
 
         private async void Carga(EmpaqueModel empaque)
@@ -79,14 +83,17 @@ namespace MasterDetail
             PckGender.ItemsSource = llenar;
             PckGender.SelectedIndex = Convert.ToInt32(emp.Gender);
 
+
+
             lblRut.Text = emp.Rut.ToString();
             lblEmail.Text = emp.Email;
             lblName.Text = emp.FirstName;
             lblLastname.Text = emp.LastName;
+            lblPass.Text = emp.Password;
             dtpNacimiento.Date = emp.BirthDate;
             lblAdress.Text = emp.Address;
             lblPhone.Text = emp.PhoneNumber.ToString();
-            lblJobTitle.Text = emp.TypeUser.ToString();
+            lblJobTitle.Text = emp.JobTitle;
 
         }
 
@@ -101,6 +108,11 @@ namespace MasterDetail
             {
                 get; set;
             }
+        }
+
+        public void ShowPass(object sender, EventArgs args)
+        {
+            lblPass.IsPassword = !lblPass.IsPassword;
         }
 
         private async void Btn_EditarPerfil_Clicked(object sender, EventArgs e)
@@ -143,7 +155,7 @@ namespace MasterDetail
                 if (response.StatusCode != System.Net.HttpStatusCode.NotFound)
                 {
                     waitActivityIndicator.IsRunning = false;
-                    await DisplayAlert("Éxito al editar", "Éxito al editar información", "Ok");
+                    await DisplayAlert("Cambios Guardados", "Cambios realizados con éxito", "Ok");
                     Btn_EditarPerfil.IsEnabled = true;
                     return;
 

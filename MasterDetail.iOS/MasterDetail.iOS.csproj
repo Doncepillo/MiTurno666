@@ -107,16 +107,10 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
@@ -144,6 +138,9 @@
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Asset 2%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Asset 1%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Asset 1%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -169,6 +166,6 @@
     <BundleResource Include="Resources\Mirendimiento.png" />
     <BundleResource Include="Resources\Misturnos.png" />
     <BundleResource Include="Resources\Notificaciones.png" />
-    <BundleResource Include="Resources\Fblogo.png" />
+    <BundleResource Include="Resources\loginpass.png" />
   </ItemGroup>
 </Project>

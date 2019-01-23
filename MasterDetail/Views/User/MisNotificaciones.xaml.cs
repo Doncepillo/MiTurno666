@@ -10,6 +10,7 @@ namespace MasterDetail
         public MisNotificaciones()
         {
             InitializeComponent();
+            NavigationPage.SetBackButtonTitle(this, "MiTurnoAPP");
         }
     }
 }

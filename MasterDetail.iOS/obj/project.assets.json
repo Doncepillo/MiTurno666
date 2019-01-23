@@ -1206,9 +1206,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/MasterDetail.iOS.csproj",
-      "projectName": "MasterDetail.iOS",
-      "projectPath": "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/MasterDetail.iOS.csproj",
+      "projectUniqueName": "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/MiTurnoAPP.iOS.csproj",
+      "projectName": "MiTurnoAPP.iOS",
+      "projectPath": "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/MiTurnoAPP.iOS.csproj",
       "packagesPath": "/Users/Toga/.nuget/packages/",
       "outputPath": "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj",
       "projectStyle": "PackageReference",
@@ -1258,7 +1258,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 3.4.0.1009999 to 3.3.0.967583. Reference the package directly from the project to select a different version. \n MasterDetail.iOS -> MasterDetail -> Xamarin.Forms (>= 3.4.0.1009999) \n MasterDetail.iOS -> Xamarin.Forms (>= 3.3.0.967583)",
+      "message": "Detected package downgrade: Xamarin.Forms from 3.4.0.1009999 to 3.3.0.967583. Reference the package directly from the project to select a different version. \n MiTurnoAPP.iOS -> MasterDetail -> Xamarin.Forms (>= 3.4.0.1009999) \n MiTurnoAPP.iOS -> Xamarin.Forms (>= 3.3.0.967583)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",

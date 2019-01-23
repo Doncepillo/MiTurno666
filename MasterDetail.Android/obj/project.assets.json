@@ -1131,9 +1131,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.Android/MasterDetail.Android.csproj",
-      "projectName": "MasterDetail.Android",
-      "projectPath": "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.Android/MasterDetail.Android.csproj",
+      "projectUniqueName": "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.Android/MiTurnoAPP.Android.csproj",
+      "projectName": "MiTurnoAPP.Android",
+      "projectPath": "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.Android/MiTurnoAPP.Android.csproj",
       "packagesPath": "/Users/Toga/.nuget/packages/",
       "outputPath": "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.Android/obj",
       "projectStyle": "PackageReference",
@@ -1191,7 +1191,7 @@
     {
       "code": "NU1107",
       "level": "Error",
-      "message": "Version conflict detected for Xamarin.Android.Support.Compat. Install/reference Xamarin.Android.Support.Compat 27.0.2.1 directly to project MasterDetail.Android to resolve this issue. \n MasterDetail.Android -> Xamarin.Android.Support.v7.MediaRouter 27.0.2.1 -> Xamarin.Android.Support.v7.Palette 27.0.2.1 -> Xamarin.Android.Support.Compat (= 27.0.2.1) \n MasterDetail.Android -> MasterDetail -> Xamarin.Auth 1.6.0.4 -> Xamarin.Android.Support.CustomTabs 25.4.0.2 -> Xamarin.Android.Support.Compat (= 25.4.0.2).",
+      "message": "Version conflict detected for Xamarin.Android.Support.Compat. Install/reference Xamarin.Android.Support.Compat 27.0.2.1 directly to project MiTurnoAPP.Android to resolve this issue. \n MiTurnoAPP.Android -> Xamarin.Android.Support.v7.MediaRouter 27.0.2.1 -> Xamarin.Android.Support.v7.Palette 27.0.2.1 -> Xamarin.Android.Support.Compat (= 27.0.2.1) \n MiTurnoAPP.Android -> MasterDetail -> Xamarin.Auth 1.6.0.4 -> Xamarin.Android.Support.CustomTabs 25.4.0.2 -> Xamarin.Android.Support.Compat (= 25.4.0.2).",
       "libraryId": "Xamarin.Android.Support.Compat",
       "targetGraphs": [
         "MonoAndroid,Version=v8.1"

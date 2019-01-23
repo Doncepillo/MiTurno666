@@ -679,9 +679,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail/MasterDetail.csproj",
-      "projectName": "MasterDetail",
-      "projectPath": "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail/MasterDetail.csproj",
+      "projectUniqueName": "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail/MiTurnoAPP.csproj",
+      "projectName": "MiTurnoAPP",
+      "projectPath": "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail/MiTurnoAPP.csproj",
       "packagesPath": "/Users/Toga/.nuget/packages/",
       "outputPath": "/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail/obj",
       "projectStyle": "PackageReference",

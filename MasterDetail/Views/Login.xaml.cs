@@ -20,7 +20,13 @@ namespace MasterDetail
         public Login()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
 
+        }
+
+        public void ShowPass(object sender, EventArgs args)
+        {
+            Pass.IsPassword = !Pass.IsPassword;
         }
 
         private async void Ingresar(object sender, EventArgs e)
