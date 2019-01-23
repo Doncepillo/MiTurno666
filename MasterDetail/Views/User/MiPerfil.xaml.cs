@@ -35,16 +35,72 @@ namespace MasterDetail
             lblSuperm.ItemsSource = supermercados2;
             listaSuperm = supermercados2;
 
+            Supermercado super = new Supermercado();
+
+            foreach (var item in listaSuperm as List<Supermercado>)
+            {
+                if (item.Id == empa.Supermarket)
+                {
+                    super = item;
+
+                }
+            }
+
+            lblSuperm.SelectedItem = super;
+
+
+            List<Genero> llenar = new List<Genero>();
+
+
+            Genero f = new Genero()
+            {
+                Id = 0,
+                Sexo = "Femenino"
+            };
+
+            llenar.Add(f);
+
+            Genero m = new Genero()
+            {
+                Id = 1,
+                Sexo = "Masculino"
+            };
+
+            llenar.Add(m);
+
+            Genero o = new Genero()
+            {
+                Id = 2,
+                Sexo = "Otro"
+            };
+
+            llenar.Add(o);
+
+            PckGender.ItemsSource = llenar;
+            PckGender.SelectedIndex = Convert.ToInt32(emp.Gender);
+
             lblRut.Text = emp.Rut.ToString();
-            lblEmail.Text = emp.Email.ToString();
-            lblName.Text = emp.FirstName.ToString();
-            lblLastname.Text = emp.LastName.ToString();
+            lblEmail.Text = emp.Email;
+            lblName.Text = emp.FirstName;
+            lblLastname.Text = emp.LastName;
             dtpNacimiento.Date = emp.BirthDate;
-            lblSuperm.SelectedItem = emp.Supermarket;
-            lblAdress.Text = emp.Address.ToString();
+            lblAdress.Text = emp.Address;
             lblPhone.Text = emp.PhoneNumber.ToString();
             lblJobTitle.Text = emp.TypeUser.ToString();
 
+        }
+
+        public class Genero
+        {
+            public int Id
+            {
+                get; set;
+            }
+
+            public string Sexo
+            {
+                get; set;
+            }
         }
 
         private async void Btn_EditarPerfil_Clicked(object sender, EventArgs e)
@@ -52,7 +108,17 @@ namespace MasterDetail
             Btn_EditarPerfil.IsEnabled = false;
             waitActivityIndicator.IsRunning = true;
 
-            Supermercado super = (Supermercado)lblSuperm.SelectedItem;
+            Supermercado super = new Supermercado();
+
+            foreach (var item in listaSuperm as List<Supermercado>)
+            {
+                if (item.Equals (lblSuperm.SelectedItem))
+                {
+                    super.Id = item.Id;
+
+                }
+            }
+
 
             EmpaqueModel empaque = new EmpaqueModel()
             {
@@ -63,6 +129,7 @@ namespace MasterDetail
                 FirstName = lblName.Text,
                 LastName = lblLastname.Text,
                 BirthDate = dtpNacimiento.Date,
+                Gender = PckGender.SelectedIndex,
                 Address = lblAdress.Text,
                 PhoneNumber = Convert.ToInt32(lblPhone.Text),
                 Supermarket = super.Id,

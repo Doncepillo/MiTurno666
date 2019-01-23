@@ -13,7 +13,7 @@
                                 <ViewCell  x:Name="Turno" Height="180"  >
                                     <Grid Margin="0,20,0,30">
                                         <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="20"/>
                                             <ColumnDefinition Width="150"/>
                                             <ColumnDefinition Width="*"/>
                                         </Grid.ColumnDefinitions>
@@ -23,18 +23,18 @@
                                             <RowDefinition Height="*"/>
                                             <RowDefinition Height="*"/>
                                         </Grid.RowDefinitions>
-                                            <Image Grid.Column="0" Grid.RowSpan="2" HeightRequest="50" WidthRequest="50" VerticalOptions="Center" HorizontalOptions="Start" Source="0.png"/>
+                                            <Image Grid.Column="0" Grid.RowSpan="2" HeightRequest="30" WidthRequest="30" VerticalOptions="Center" HorizontalOptions="Start" Source="0.png"/>
                                             <Label  Text="Estado: "  HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="1" />
-                                            <Label  Text="Fecha de Turno: " HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="1"/>
-                                            <Label  Text="Hora de Inicio: " HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="1" />
-                                            <Label  Text="Hora de Término: " HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="3" Grid.Column="1" />
-                                            <Label  Text="Jornada: "  HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="4" Grid.Column="1" />
+                                            <Label  Text="Fecha de Turno: " HorizontalOptions="Start" FontSize="12" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="1"/>
+                                            <Label  Text="Hora de Inicio: " HorizontalOptions="Start" FontSize="12" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="1" />
+                                            <Label  Text="Hora de Término: " HorizontalOptions="Start" FontSize="12" VerticalTextAlignment="Center" Grid.Row="3" Grid.Column="1" />
+                                            <Label  Text="Jornada: "  HorizontalOptions="Start" FontSize="12" VerticalTextAlignment="Center" Grid.Row="4" Grid.Column="1" />
 
-                                            <Label x:Name="TurnState" Grid.Column="2" Grid.Row="0" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding TurnState}"/>
-                                            <Label x:Name="TurnDate" Grid.Column="2" Grid.Row="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding TurnDate}"/>
-                                            <Label x:Name="Initiation" Grid.Column="2" Grid.Row="2" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding Initiation}"/>
-                                            <Label x:Name="Finished" Grid.Column="2" Grid.Row="3" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding Finished}"/>
-                                            <Label x:Name="WorkingDay" Grid.Column="2" Grid.Row="4" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding WorkingDay}"/>
+                                            <Label x:Name="TurnState" Grid.Column="2" Grid.Row="0" FontSize="12" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding TurnState}"/>
+                                            <Label x:Name="TurnDate" Grid.Column="2" Grid.Row="1" FontSize="12" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding TurnDate}"/>
+                                            <Label x:Name="Initiation" Grid.Column="2" Grid.Row="2" FontSize="12" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding Initiation}"/>
+                                            <Label x:Name="Finished" Grid.Column="2" Grid.Row="3" FontSize="12" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding Finished}"/>
+                                            <Label x:Name="WorkingDay" Grid.Column="2" Grid.Row="4" FontSize="12" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding WorkingDay}"/>
                                 </Grid>    
                             </ViewCell>
                         </DataTemplate>

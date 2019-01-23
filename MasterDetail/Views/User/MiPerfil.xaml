@@ -36,7 +36,7 @@
                     <Label Text="Rut " Grid.Row="1" Grid.Column="0" FontSize="15"/>
                     <Entry x:Name="lblRut" Keyboard="Numeric" Grid.Row="1" Grid.Column="1" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
                     <Label Text="Email: " Grid.Row="2" Grid.Column="0" />
-                    <Entry x:Name="lblEmail" Grid.Row="2" Grid.Column="1" Text="" Keyboard="Email" Opacity="0.8" HeightRequest="25" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
+                    <Entry x:Name="lblEmail" Grid.Row="2" Grid.Column="1" Text="" Opacity="0.8" HeightRequest="25" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
                     <Label Text="Contraseña: " Grid.Row="3" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>
                     <Entry x:Name="lblPass" Grid.Row="3" Grid.Column="1" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
                     <Label Text="Nombre: " Grid.Row="4" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>
@@ -44,14 +44,14 @@
                     <Label Text="Apellido: " Grid.Row="5" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>
                     <Entry x:Name="lblLastname" Grid.Row="5" Grid.Column="1" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
                     <Label Text="Supermercado: " Grid.Row="6" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>
-                    <Picker x:Name="lblSuperm" Grid.Row="6" Grid.Column="1" ItemDisplayBinding="{Binding SpmName}" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
+                    <Picker x:Name="lblSuperm" Grid.Row="6"  Grid.Column="1" ItemDisplayBinding="{Binding SpmName}" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
                     <Label Text="Telefono: " Grid.Row="7" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>
                     <Entry x:Name="lblPhone" Keyboard="Telephone" Grid.Row="7" Grid.Column="1" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
                     <Label Text="Fecha nacimiento: " Grid.Row="8" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>
                     <DatePicker x:Name="dtpNacimiento" Grid.Row="8" Grid.Column="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15">
                     </DatePicker>
                     <Label Text="Genero: " Grid.Row="9" Grid.Column="0" Opacity="0.8" HeightRequest="25" />
-                    <Entry x:Name="lblGender" Grid.Row="9" Grid.Column="1" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
+                    <Picker ItemDisplayBinding="{Binding Sexo}" x:Name="PckGender" Title="Elija su sexo" Grid.Row="9" Grid.Column="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15" />
                     <Label Text="Dirección: " Grid.Row="10" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>
                     <Entry x:Name="lblAdress" Grid.Row="10" Grid.Column="1" Text="" HorizontalOptions="FillAndExpand" VerticalOptions="Center" FontSize="15"/>
                     <Label Text="Tipo: " Grid.Row="11" Grid.Column="0" Opacity="0.8" HeightRequest="25"/>

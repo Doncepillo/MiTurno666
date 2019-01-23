@@ -322,6 +322,7 @@ C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/obj/iPhoneSimulator/Debug/M
 /Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/Mirendimiento.png
 /Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/Misturnos.png
 /Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/Notificaciones.png
+/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/Fblogo.png
 /Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/
 /Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.csprojAssemblyReference.cache
 /Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.csproj.CoreCompileInputs.cache
@@ -329,4 +330,3 @@ C:/Users/exe_6/Desktop/IntentoMERGE/MasterDetail.iOS/obj/iPhoneSimulator/Debug/M
 /Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.csproj.CopyComplete
 /Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.exe
 /Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/MasterDetail.iOS.pdb
-/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.1/optimized/Fblogo.png

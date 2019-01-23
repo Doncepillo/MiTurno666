@@ -61,7 +61,6 @@ C:/Users/exe_6/Desktop/miturno.com/AppMiturno.com/MiTurno666/MasterDetail/obj/De
 /Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail/obj/Debug/netstandard2.0/MasterDetail.dll
 /Users/Toga/Desktop/ultima semana/Doncepillo/MiTurno666.git/MasterDetail/obj/Debug/netstandard2.0/MasterDetail.pdb
-/Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail/obj/Debug/netstandard2.0/MasterDetail.csprojAssemblyReference.cache
 /Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail/bin/Debug/netstandard2.0/MasterDetail.deps.json
 /Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail/bin/Debug/netstandard2.0/MasterDetail.dll
 /Users/Toga/Desktop/don cepillo/MiTurno666.git/MasterDetail/bin/Debug/netstandard2.0/MasterDetail.pdb
