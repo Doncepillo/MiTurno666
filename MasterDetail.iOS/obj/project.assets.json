@@ -1124,11 +1124,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail.iOS\\MasterDetail.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail.iOS\\MasterDetail.iOS.csproj",
       "projectName": "MasterDetail.iOS",
-      "projectPath": "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail.iOS\\MasterDetail.iOS.csproj",
+      "projectPath": "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail.iOS\\MasterDetail.iOS.csproj",
       "packagesPath": "C:\\Users\\exe_6\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail.iOS\\obj\\",
+      "outputPath": "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1145,8 +1145,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail\\MasterDetail.csproj": {
-              "projectPath": "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail\\MasterDetail.csproj"
+            "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail\\MasterDetail.csproj": {
+              "projectPath": "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail\\MasterDetail.csproj"
             }
           }
         }

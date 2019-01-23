@@ -1076,11 +1076,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail.Android\\MasterDetail.Android.csproj",
+      "projectUniqueName": "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail.Android\\MasterDetail.Android.csproj",
       "projectName": "MasterDetail.Android",
-      "projectPath": "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail.Android\\MasterDetail.Android.csproj",
+      "projectPath": "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail.Android\\MasterDetail.Android.csproj",
       "packagesPath": "C:\\Users\\exe_6\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail.Android\\obj\\",
+      "outputPath": "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1097,8 +1097,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail\\MasterDetail.csproj": {
-              "projectPath": "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail\\MasterDetail.csproj"
+            "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail\\MasterDetail.csproj": {
+              "projectPath": "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail\\MasterDetail.csproj"
             }
           }
         }

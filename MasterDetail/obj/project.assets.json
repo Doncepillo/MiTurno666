@@ -641,11 +641,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail\\MasterDetail.csproj",
+      "projectUniqueName": "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail\\MasterDetail.csproj",
       "projectName": "MasterDetail",
-      "projectPath": "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail\\MasterDetail.csproj",
+      "projectPath": "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail\\MasterDetail.csproj",
       "packagesPath": "C:\\Users\\exe_6\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\exe_6\\Desktop\\miturno.com\\AppMiturno.com\\MiTurno666\\MasterDetail\\obj\\",
+      "outputPath": "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
