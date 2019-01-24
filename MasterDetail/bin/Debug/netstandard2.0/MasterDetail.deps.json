@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "1e87386b2a9b77fa25c72690ea74befd769f8e5f"
+    "signature": "9b1b9737b44872772ad3a046e9af06d08f44ba8b"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,34 +9,21 @@
     ".NETStandard,Version=v2.0/": {
       "MasterDetail/1.0.0": {
         "dependencies": {
-          "MaterialDesignColors": "1.1.3",
-          "MaterialDesignThemes": "2.5.0.1205",
+          "Acr.UserDialogs": "7.0.1",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.1",
           "SQLite.Net-PCL": "3.1.1",
-          "Xamarin.Auth": "1.6.0.4",
           "Xamarin.Forms": "3.4.0.1009999"
         },
         "runtime": {
           "MasterDetail.dll": {}
         }
       },
-      "MaterialDesignColors/1.1.3": {
+      "Acr.UserDialogs/7.0.1": {
         "runtime": {
-          "lib/net45/MaterialDesignColors.dll": {
-            "assemblyVersion": "1.1.3.0",
-            "fileVersion": "1.1.3.0"
-          }
-        }
-      },
-      "MaterialDesignThemes/2.5.0.1205": {
-        "dependencies": {
-          "MaterialDesignColors": "1.1.3"
-        },
-        "runtime": {
-          "lib/net45/MaterialDesignThemes.Wpf.dll": {
-            "assemblyVersion": "2.5.0.1205",
-            "fileVersion": "2.5.0.1205"
+          "lib/netstandard2.0/Acr.UserDialogs.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -77,14 +64,6 @@
           }
         }
       },
-      "Xamarin.Auth/1.6.0.4": {
-        "runtime": {
-          "lib/netstandard1.6/Xamarin.Auth.dll": {
-            "assemblyVersion": "1.6.0.1",
-            "fileVersion": "1.6.0.1"
-          }
-        }
-      },
       "Xamarin.Forms/3.4.0.1009999": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
@@ -109,24 +88,17 @@
       "serviceable": false,
       "sha512": ""
     },
-    "MaterialDesignColors/1.1.3": {
+    "Acr.UserDialogs/7.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-os3xFYXdjzL7yYhdhHI3iN8hTMJIHK2FThoTtzRs0tNMEHos6ag3D3LpzTwFsXeqKq3n2rnpxMrHies7wmVWeg==",
-      "path": "materialdesigncolors/1.1.3",
-      "hashPath": "materialdesigncolors.1.1.3.nupkg.sha512"
-    },
-    "MaterialDesignThemes/2.5.0.1205": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-64hmvLRYeNfbTvALfNPfOBhdZEZCka8YpF1K+0yMFEbCA4kaiheEWee9FktLgQoBnvb48AmhNbqOjfKeXBRNFQ==",
-      "path": "materialdesignthemes/2.5.0.1205",
-      "hashPath": "materialdesignthemes.2.5.0.1205.nupkg.sha512"
+      "sha512": "sha512-4BB8g4I9YEvaxp6r1aq14TPLJztGTe2IW9BymNunYxigV/AMBeYhUDcerf9OgrPOTKtENVN23W+d0FtIvhiPLw==",
+      "path": "acr.userdialogs/7.0.1",
+      "hashPath": "acr.userdialogs.7.0.1.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
@@ -140,7 +112,7 @@
     "Newtonsoft.Json/12.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jmVyoEyk0In8r+AObYQyFKVFm7uSRzE0XSHSbEtBJcZDMV6DqJoyB4FLcHwprPVhAh826so0db3DIKXVnpGoPA==",
+      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
       "path": "newtonsoft.json/12.0.1",
       "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
     },
@@ -157,13 +129,6 @@
       "sha512": "sha512-oNeX60ZqLqly+lxGAxvOCoGte7Fc2OabE5rOTs0clMMcrip+SMpWlvWb7cn/LxRepwQZAotSNWxxqzztasRsyQ==",
       "path": "sqlite.net.core-pcl/3.1.1",
       "hashPath": "sqlite.net.core-pcl.3.1.1.nupkg.sha512"
-    },
-    "Xamarin.Auth/1.6.0.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Z29LQBGqx9+QOJNU9ZHjuQt4L4S4z0k51IzKI9J3UGsNOd1w7/SqBBHvkGs799ImcR0B4ft8HpzwBpvwHggmUA==",
-      "path": "xamarin.auth/1.6.0.4",
-      "hashPath": "xamarin.auth.1.6.0.4.nupkg.sha512"
     },
     "Xamarin.Forms/3.4.0.1009999": {
       "type": "package",

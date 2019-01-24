@@ -8,22 +8,26 @@ using MasterDetail;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Newtonsoft.Json;
-using Xamarin.Auth;
-using System.Json;
 using MasterDetail.Views;
+using MasterDetail.Interface.firebasesample.Services.FirebaseAuth;
+using Acr.UserDialogs;
 
 namespace MasterDetail
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Login : ContentPage
     {
+        private IFirebaseAuthService _firebaseService;
+
         public Login()
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
 
+            
         }
 
+        
         public void ShowPass(object sender, EventArgs args)
         {
             Pass.IsPassword = !Pass.IsPassword;

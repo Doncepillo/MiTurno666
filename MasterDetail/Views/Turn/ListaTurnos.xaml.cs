@@ -6,24 +6,28 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using System.Globalization;
+using System.Linq;
+using System.Net.Http;
 
 namespace MasterDetail
 {
     public partial class ListaTurnos : ContentPage
     {
-        
 
-        public ListaTurnos()
+        EmpaqueModel empaq = new EmpaqueModel();
+        public ListaTurnos(EmpaqueModel empaque)
         {
+            this.empaq = empaque;
             InitializeComponent();
-            Cargar();
             NavigationPage.SetBackButtonTitle(this, "MiTurnoAPP");
+
+            Cargar();
 
         }
 
         private void Cargar()
         {
-             GrillaTurnosAsync();
+            GrillaTurnosAsync();
         }
 
         private async Task GrillaTurnosAsync()
@@ -31,7 +35,7 @@ namespace MasterDetail
             waitActivityIndicator.IsRunning = true;
             string response = await Service.GetAllApi("api/turn");
 
-            List<Turnos> turnos =  JsonConvert.DeserializeObject<List<Turnos>>(response);
+            List<Turnos> turnos = JsonConvert.DeserializeObject<List<Turnos>>(response);
             waitActivityIndicator.IsRunning = false;
 
             LV_Turnos.ItemsSource = turnos;
@@ -43,24 +47,56 @@ namespace MasterDetail
 
 
 
-        private void TomarTurno(object sender, ItemTappedEventArgs e)
+        private async void TomarTurno(object sender, ItemTappedEventArgs e)
         {
-            Turnos item =(Turnos) e.Item;
+
+            Turnos item = (Turnos)e.Item;
+            List<Turnos> listaturnos = (List<Turnos>)LV_Turnos.ItemsSource;
+
+
 
             //tengo que cambiar en la base de datos la funcionalidad del campo Maximuncap
-            Turnos turno = new Turnos()
+            TraceabilityWorkShift turnotomado = new TraceabilityWorkShift()
             {
-                Id=item.Id
-                
-                
+
+                ActualState = 0,
+                IdWor = item.Id,
+                UserId = empaq.Id,
+                EffectiveQuantity = 1
+
             };
 
-          //  Service.Post("api/",)
 
-            DisplayAlert(" ", item.MaximunCap.ToString(), "ok");
-            
-            
-            
+            try
+            {
+                HttpResponseMessage response = await Service.Post("api/TraceabilityWorkShift", turnotomado);
+                if (response.StatusCode != System.Net.HttpStatusCode.NotFound)
+                {
+                    foreach (var turn in LV_Turnos.ItemsSource as List<Turnos>)
+                    {
+                        if (turn.Id == item.Id)
+                        {
+                            listaturnos.Remove(turn);
+                        }
+                    }
+                    LV_Turnos.ItemsSource = null;
+                    LV_Turnos.ItemsSource = listaturnos;
+
+
+                    await DisplayAlert("Exito", "Turno asignado Exitosamente", "OK", "Cancelar");
+                }
+                else
+                {
+
+                    await DisplayAlert("Fallo", "Error al asignar turno", "OK");
+
+                }
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Fallo", "Error al asignar turno " + ex, "OK");
+            }
+
         }
 
 

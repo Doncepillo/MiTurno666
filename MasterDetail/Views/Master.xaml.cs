@@ -27,7 +27,7 @@ namespace MasterDetail
         {
 
             App.MasterD.IsPresented = false;
-            await App.MasterD.Detail.Navigation.PushAsync(new ListaTurnos());
+            await App.MasterD.Detail.Navigation.PushAsync(new ListaTurnos(this.empaque));
 
         }
 

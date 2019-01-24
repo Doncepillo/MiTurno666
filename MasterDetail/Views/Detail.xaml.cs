@@ -8,8 +8,10 @@ namespace MasterDetail
 {
     public partial class Detail : ContentPage
     {
+        EmpaqueModel empa = new EmpaqueModel();
         public Detail(EmpaqueModel empaque)
         {
+            this.empa = empaque;
             InitializeComponent();
 
 
@@ -20,7 +22,7 @@ namespace MasterDetail
         {
 
             App.MasterD.IsPresented = false;
-            await App.MasterD.Detail.Navigation.PushAsync(new ListaTurnos());
+            await App.MasterD.Detail.Navigation.PushAsync(new ListaTurnos(empa));
 
         }
 
