@@ -29,7 +29,7 @@ namespace MasterDetail
         private void MisTurnos(object sender, EventArgs e)
         {
 
-            Navigation.PushAsync(new MisTurnos());
+            Navigation.PushAsync(new MisTurnos(empa));
 
         }
 

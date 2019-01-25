@@ -20,7 +20,7 @@ namespace MasterDetail
 
 
             App.MasterD.IsPresented = false;
-            await App.MasterD.Detail.Navigation.PushAsync(new MisTurnos());
+            await App.MasterD.Detail.Navigation.PushAsync(new MisTurnos(this.empaque));
         }
 
         private async void BtnListaTurnos_Clicked(object sender, EventArgs e)

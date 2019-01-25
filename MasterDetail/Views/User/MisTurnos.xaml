@@ -9,7 +9,7 @@
         <ScrollView>
             <StackLayout>
                 <ActivityIndicator x:Name="waitActivityIndicator" HorizontalOptions="Center" VerticalOptions="Center"/>
-                    <ListView x:Name="LV_Turnos"  HasUnevenRows="True" ItemTapped="TomarTurno" >
+                <ListView x:Name="Mis_Turnos"  HasUnevenRows="True"  >
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell  x:Name="Turno" Height="180"  >
@@ -25,18 +25,19 @@
                                             <RowDefinition Height="*"/>
                                             <RowDefinition Height="*"/>
                                         </Grid.RowDefinitions>
-                                            <Image Grid.Column="0" Grid.RowSpan="4" HeightRequest="150" VerticalOptions="Center" HorizontalOptions="Start" Source="0.png"/>
+                                    
+                                        <Image Grid.Column="0" Grid.RowSpan="4" HeightRequest="150" VerticalOptions="Center" HorizontalOptions="Start" Source="asignarturno.png"/>
                                             <Label  Text="Estado: "  HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="1" />
-                                            <Label  Text="Fecha de Turno: " HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="1"/>
-                                            <Label  Text="Hora de Inicio: " HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="1" />
-                                            <Label  Text="Hora de Término: " HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="3" Grid.Column="1" />
-                                            <Label  Text="Jornada: "  HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="4" Grid.Column="1" />
+                                            <Label  Text="cantidad Efectiva: " HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="1"/>
+                                            <Label  Text="ID usuario: " HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="1" />
+                                            <Label  Text="ID Turno: " HorizontalOptions="Start" VerticalTextAlignment="Center" Grid.Row="3" Grid.Column="1" />
+                                            <Button x:Name="IntercambiarTurno"  Text="Intercambiar Turno"  HorizontalOptions="Start" VerticalOptions="Center" Grid.Row="4" Grid.Column="1" Clicked="IntercambiarTurno_Clicked" />
 
-                                            <Label x:Name="TurnState" Grid.Column="2" Grid.Row="0" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding TurnState}"/>
-                                            <Label x:Name="TurnDate" Grid.Column="2" Grid.Row="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding TurnDate}"/>
-                                            <Label x:Name="Initiation" Grid.Column="2" Grid.Row="2" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding Initiation}"/>
-                                            <Label x:Name="Finished" Grid.Column="2" Grid.Row="3" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding Finished}"/>
-                                            <Label x:Name="WorkingDay" Grid.Column="2" Grid.Row="4" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding WorkingDay}"/>
+                                            <Label x:Name="TurnState" Grid.Column="2" Grid.Row="0" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding ActualState}"/>
+                                            <Label x:Name="TurnDate" Grid.Column="2" Grid.Row="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding EfectiveQuantity}"/>
+                                            <Label x:Name="Initiation" Grid.Column="2" Grid.Row="2" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding UserID}"/>
+                                            <Label x:Name="Finished" Grid.Column="2" Grid.Row="3" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding Id_Wor}"/>
+                                            <Button x:Name="RegalarTurno" Clicked="RegalarTurno_Clicked" Grid.Column="2" Grid.Row="4" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Text="Regalar Turno"/>
                                 </Grid>    
                             </ViewCell>
                         </DataTemplate>

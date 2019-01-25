@@ -84,5 +84,17 @@ namespace MasterDetail.Servicio
 
             return response;
         }
+        public static async Task<HttpResponseMessage>Delete(string path)
+        {
+            var url = new Uri($"{BASE}/{path}");
+
+            HttpResponseMessage response = new HttpResponseMessage();
+            using(var httpclient = new HttpClient())
+            {
+               response = await httpclient.DeleteAsync(url);
+            }
+
+            return response;
+        }
     }
 }
