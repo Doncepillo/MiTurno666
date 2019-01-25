@@ -7,30 +7,26 @@ namespace MasterDetail
     using System.Globalization;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
+    using SQLite.Net.Attributes;
 
     public partial class TraceabilityWorkShift
     {
-        //[JsonProperty("Turn")]
-        //public object Turn { get; set; }
-
-        //[JsonProperty("Users")]
-        //public object Users { get; set; }
-
-        [JsonProperty("Id")]
-        public long Id { get; set; }
+        
+        [PrimaryKey, AutoIncrement]
+        [JsonProperty("ID")]
+        public int Id { get; set; }
 
         [JsonProperty("ActualState")]
-        [JsonConverter(typeof(ParseStringConverter))]
-        public int ActualState { get; set; }
+        public string ActualState { get; set; }
 
         [JsonProperty("EffectiveQuantity")]
         public int EffectiveQuantity { get; set; }
 
         [JsonProperty("UserID")]
-        public long UserId { get; set; }
+        public int UserId { get; set; }
 
         [JsonProperty("Id_Wor")]
-        public long IdWor { get; set; }
+        public int IdWor { get; set; }
     }
 
     public partial class TraceabilityWorkShift

@@ -19,7 +19,7 @@ namespace MasterDetail
     public partial class Turnos
     {
         [JsonProperty("ID")]
-        public long Id { get; set; }
+        public int Id { get; set; }
 
         [JsonProperty("Initiation")]
         public DateTime Initiation { get; set; }

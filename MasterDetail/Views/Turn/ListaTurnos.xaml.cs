@@ -8,12 +8,14 @@ using Xamarin.Forms;
 using System.Globalization;
 using System.Linq;
 using System.Net.Http;
+using Plugin.Connectivity;
 
 namespace MasterDetail
 {
     public partial class ListaTurnos : ContentPage
     {
 
+        List<Turnos> gTurnos = new List<Turnos>();
         EmpaqueModel empaq = new EmpaqueModel();
         public ListaTurnos(EmpaqueModel empaque)
         {
@@ -33,13 +35,48 @@ namespace MasterDetail
         private async Task GrillaTurnosAsync()
         {
             waitActivityIndicator.IsRunning = true;
-            string response = await Service.GetAllApi("api/turn");
 
-            List<Turnos> turnos = JsonConvert.DeserializeObject<List<Turnos>>(response);
+            try
+            {
+                using(var datos= new DataAccess())
+                {
+                    List<Turnos> lista = datos.GetTurnos();
+                    if (lista == null)
+                    {
+                        string response = await Service.GetAllApi("api/turn");
+
+                        List<Turnos> turnos = JsonConvert.DeserializeObject<List<Turnos>>(response);
+                        gTurnos = turnos;
+                        waitActivityIndicator.IsRunning = false;
+
+                        LV_Turnos.ItemsSource = turnos;
+                        
+                            foreach (var item in turnos)
+                            {
+                                Turnos turn = new Turnos();
+                                turn = item;
+                                datos.InsertTurno(turn);
+                            }
+
+                    }
+                    else
+                    {
+                        LV_Turnos.ItemsSource = datos.GetTurnos();
+                        gTurnos = datos.GetTurnos();
+                    }
+                }
+                
+                
+            }
+            catch (Exception ex)
+            {
+
+                waitActivityIndicator.IsRunning = false;
+
+                await DisplayAlert("Fallo", "Error al cargar turnos " + ex, "OK");
+
+            }
             waitActivityIndicator.IsRunning = false;
-
-            LV_Turnos.ItemsSource = turnos;
-
         }
 
 
@@ -47,56 +84,84 @@ namespace MasterDetail
 
 
 
-        private async void TomarTurno(object sender, ItemTappedEventArgs e)
+        private void TomarTurno(object sender, ItemTappedEventArgs e)
         {
 
+            waitActivityIndicator.IsRunning = true;
+            LV_Turnos.IsEnabled = false;
             Turnos item = (Turnos)e.Item;
-            List<Turnos> listaturnos = (List<Turnos>)LV_Turnos.ItemsSource;
 
+            
+            TomandoT(item);
 
+            foreach(var turn in LV_Turnos.ItemsSource as List<Turnos>)
+            {
+                if(item.Id == turn.Id)
+                {
+                    gTurnos.Remove(turn);
+                    LV_Turnos.ItemsSource = null;
+                    LV_Turnos.ItemsSource = gTurnos;
+                    return;
+                }
+            }
+        }
 
-            //tengo que cambiar en la base de datos la funcionalidad del campo Maximuncap
+        private void TomandoT(Turnos item)
+        {
+            TomarT(item);
+
+        }
+
+        private async Task TomarT(Turnos item)
+        {
             TraceabilityWorkShift turnotomado = new TraceabilityWorkShift()
             {
-
-                ActualState = 0,
+                Id = 0,
+                ActualState = "0",
+                EffectiveQuantity = 1,
                 IdWor = item.Id,
-                UserId = empaq.Id,
-                EffectiveQuantity = 1
+                UserId = empaq.Id
+
 
             };
 
-
-            try
+            if (CrossConnectivity.Current.IsConnected)
             {
-                HttpResponseMessage response = await Service.Post("api/TraceabilityWorkShift", turnotomado);
-                if (response.StatusCode != System.Net.HttpStatusCode.NotFound)
+
+            }
+            else
+            {
+                using (var datos = new DataAccess())
                 {
-                    foreach (var turn in LV_Turnos.ItemsSource as List<Turnos>)
-                    {
-                        if (turn.Id == item.Id)
-                        {
-                            listaturnos.Remove(turn);
-                        }
-                    }
-                    LV_Turnos.ItemsSource = null;
-                    LV_Turnos.ItemsSource = listaturnos;
+                    datos.InsertTraza(turnotomado);
 
+                }
+                return;
+            }
+            
+                HttpResponseMessage response = await Service.Post("api/TraceabilityWorkShift", turnotomado);
 
+                if (response.StatusCode != System.Net.HttpStatusCode.NotFound && response.StatusCode != System.Net.HttpStatusCode.NoContent && response.StatusCode != System.Net.HttpStatusCode.InternalServerError)
+                {
+                waitActivityIndicator.IsRunning = false;
                     await DisplayAlert("Exito", "Turno asignado Exitosamente", "OK", "Cancelar");
+                    LV_Turnos.IsEnabled = true;
+
                 }
                 else
                 {
+                    LV_Turnos.IsEnabled = true;
 
                     await DisplayAlert("Fallo", "Error al asignar turno", "OK");
 
                 }
-            }
-            catch (Exception ex)
-            {
-                await DisplayAlert("Fallo", "Error al asignar turno " + ex, "OK");
-            }
+            //}
+            //catch (Exception ex)
+            //{
+            //    LV_Turnos.IsEnabled = true;
 
+            //    await DisplayAlert("Fallo", "Error al asignar turno " + ex, "OK");
+            //}
         }
 
 

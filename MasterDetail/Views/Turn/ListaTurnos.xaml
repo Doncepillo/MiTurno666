@@ -31,8 +31,9 @@
                                             <Label  Text="Hora de Inicio: " HorizontalOptions="Start" FontSize="13" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="1" />
                                             <Label  Text="Hora de Término: " HorizontalOptions="Start" FontSize="13" VerticalTextAlignment="Center" Grid.Row="3" Grid.Column="1" />
                                             <Label  Text="Jornada: "  HorizontalOptions="Start" FontSize="13" VerticalTextAlignment="Center" Grid.Row="4" Grid.Column="1" />
+                                    
 
-                                            <Label x:Name="TurnState" Grid.Column="2" Grid.Row="0" FontSize="13" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding TurnState}"/>
+                                    <Label x:Name="TurnState" Grid.Column="2" Grid.Row="0" FontSize="13" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding TurnState}"/>
                                             <Label x:Name="TurnDate" Grid.Column="2" Grid.Row="1" FontSize="13" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding TurnDate, StringFormat='{0:dddd dd, MMMM yyyy}'} " />
                                             <Label x:Name="Initiation" Grid.Column="2" Grid.Row="2" FontSize="13" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding Initiation, StringFormat='{}{0:HH:mm}'}"/>
                                             <Label x:Name="Finished" Grid.Column="2" Grid.Row="3" FontSize="13" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  Text="{Binding Finished, StringFormat='{}{0:HH:mm}'}"/>
