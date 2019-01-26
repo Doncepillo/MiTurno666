@@ -143,12 +143,7 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Asset 2%402x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Asset 1%403x.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Asset 1%402x.png">
-      <Visible>false</Visible>
-    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Logoapp.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -175,7 +170,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\logo.png" />
     <BundleResource Include="Resources\orangebg.png" />
-    <BundleResource Include="Resources\0.png" />
+    <BundleResource Include="Resources\turno.png" />
     <BundleResource Include="Resources\Listaturnos.png" />
     <BundleResource Include="Resources\Mirendimiento.png" />
     <BundleResource Include="Resources\Misturnos.png" />

@@ -14,17 +14,13 @@ namespace MasterDetail
 {
     public partial class ListaTurnos : ContentPage
     {
-
         List<Turnos> gTurnos = new List<Turnos>();
         EmpaqueModel empaq = new EmpaqueModel();
         public ListaTurnos(EmpaqueModel empaque)
         {
             this.empaq = empaque;
             InitializeComponent();
-            NavigationPage.SetBackButtonTitle(this, "MiTurnoAPP");
-
             Cargar();
-
         }
 
         private void Cargar()
@@ -41,7 +37,7 @@ namespace MasterDetail
                 using(var datos= new DataAccess())
                 {
                     List<Turnos> lista = datos.GetTurnos();
-                    if (lista == null)
+                    if (lista == null||lista.Count==0)
                     {
                         string response = await Service.GetAllApi("api/turn");
 
@@ -57,41 +53,29 @@ namespace MasterDetail
                                 turn = item;
                                 datos.InsertTurno(turn);
                             }
-
                     }
+
                     else
                     {
                         LV_Turnos.ItemsSource = datos.GetTurnos();
                         gTurnos = datos.GetTurnos();
                     }
                 }
-                
-                
             }
+
             catch (Exception ex)
             {
-
                 waitActivityIndicator.IsRunning = false;
-
                 await DisplayAlert("Fallo", "Error al cargar turnos " + ex, "OK");
-
             }
             waitActivityIndicator.IsRunning = false;
         }
 
-
-
-
-
-
         private void TomarTurno(object sender, ItemTappedEventArgs e)
         {
-
             waitActivityIndicator.IsRunning = true;
             LV_Turnos.IsEnabled = false;
             Turnos item = (Turnos)e.Item;
-
-            
             TomandoT(item);
 
             foreach(var turn in LV_Turnos.ItemsSource as List<Turnos>)
@@ -121,8 +105,6 @@ namespace MasterDetail
                 EffectiveQuantity = 1,
                 IdWor = item.Id,
                 UserId = empaq.Id
-
-
             };
 
             if (CrossConnectivity.Current.IsConnected)
@@ -130,11 +112,11 @@ namespace MasterDetail
 
             }
             else
+
             {
                 using (var datos = new DataAccess())
                 {
                     datos.InsertTraza(turnotomado);
-
                 }
                 return;
             }
@@ -144,10 +126,10 @@ namespace MasterDetail
                 if (response.StatusCode != System.Net.HttpStatusCode.NotFound && response.StatusCode != System.Net.HttpStatusCode.NoContent && response.StatusCode != System.Net.HttpStatusCode.InternalServerError)
                 {
                 waitActivityIndicator.IsRunning = false;
-                    await DisplayAlert("Exito", "Turno asignado Exitosamente", "OK", "Cancelar");
+                    await DisplayAlert("¡Éxito!", "Turno asignado exitosamente", "Aceptar", "Cancelar");
                     LV_Turnos.IsEnabled = true;
-
                 }
+
                 else
                 {
                     LV_Turnos.IsEnabled = true;
