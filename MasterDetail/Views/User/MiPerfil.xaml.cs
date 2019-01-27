@@ -70,6 +70,7 @@ namespace MasterDetail
             };
 
             llenar.Add(o);
+
             PckGender.ItemsSource = llenar;
             PckGender.SelectedIndex = Convert.ToInt32(emp.Gender);
             lblRut.Text = emp.Rut.ToString();
@@ -150,7 +151,7 @@ namespace MasterDetail
             EmpaqueModel empaque = new EmpaqueModel()
             {
                 Id = empa.Id,
-                Rut = Convert.ToInt32(lblRut.Text),
+                Rut = Convert.ToInt32(lblRut.Text.Replace(".","").Replace("-","")),
                 Email = lblEmail.Text,
                 Password = lblPass.Text,
                 FirstName = lblName.Text,
