@@ -892,10 +892,11 @@
       ]
     },
     "Newtonsoft.Json/12.0.1": {
-      "sha512": "jmVyoEyk0In8r+AObYQyFKVFm7uSRzE0XSHSbEtBJcZDMV6DqJoyB4FLcHwprPVhAh826so0db3DIKXVnpGoPA==",
+      "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
       "type": "package",
       "path": "newtonsoft.json/12.0.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
@@ -963,10 +964,11 @@
       ]
     },
     "Xam.Plugin.Connectivity/3.2.0": {
-      "sha512": "V0IKUjLnWO4zl1VI/7Keclez5kk21PIpVUqacbMtbl1Ky7PrUNUOrO8Xmfrxn5E38ihzrmgGpuC6TXCwL3Sl+Q==",
+      "sha512": "ZV45TaBTCJg7XQNEl3fPyyJcuMMhdDEQ6BCLc/5pMuTv38M226ER0WTu5sbmba8jlliDuzeRqkRFHwrGdWAgyg==",
       "type": "package",
       "path": "xam.plugin.connectivity/3.2.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.dll",
         "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.pdb",
@@ -1030,10 +1032,11 @@
       ]
     },
     "Xamarin.Forms/3.3.0.967583": {
-      "sha512": "aebAEUHkER6WRo4WpsDd8jq4EudSl3WS4n7Pxcq8ea+x9fHi9PstCU0dU2D5PGvSeKa3yEFSpRljOEjI7qtsNA==",
+      "sha512": "+Y5j017bAHyZquRMj4vWyudJeJw7xQk+8BUNpMXg91ttO7sGWGGd6TuAuJubF0iEihzMDY1McZV8ZLZCjqjwUQ==",
       "type": "package",
       "path": "xamarin.forms/3.3.0.967583",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "build/Xamarin.Forms.DefaultItems.props",
         "build/Xamarin.Forms.DefaultItems.targets",
@@ -1191,31 +1194,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/Toga/.nuget/packages/": {}
+    "C:\\Users\\exe_6\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Toga/Desktop/ProyectoDef/MiTurno666/MasterDetail.iOS/MasterDetail.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail.iOS\\MasterDetail.iOS.csproj",
       "projectName": "MasterDetail.iOS",
-      "projectPath": "/Users/Toga/Desktop/ProyectoDef/MiTurno666/MasterDetail.iOS/MasterDetail.iOS.csproj",
-      "packagesPath": "/Users/Toga/.nuget/packages/",
-      "outputPath": "/Users/Toga/Desktop/ProyectoDef/MiTurno666/MasterDetail.iOS/obj",
+      "projectPath": "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail.iOS\\MasterDetail.iOS.csproj",
+      "packagesPath": "C:\\Users\\exe_6\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail.iOS\\obj\\",
       "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/Toga/.config/NuGet/NuGet.Config"
+        "C:\\Users\\exe_6\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/Toga/Desktop/ProyectoDef/MiTurno666/MasterDetail/MasterDetail.csproj": {
-              "projectPath": "/Users/Toga/Desktop/ProyectoDef/MiTurno666/MasterDetail/MasterDetail.csproj"
+            "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail\\MasterDetail.csproj": {
+              "projectPath": "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail\\MasterDetail.csproj"
             }
           }
         }
@@ -1256,7 +1262,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 3.4.0.1009999 to 3.3.0.967583. Reference the package directly from the project to select a different version. \n MasterDetail.iOS -> MasterDetail -> Xamarin.Forms (>= 3.4.0.1009999) \n MasterDetail.iOS -> Xamarin.Forms (>= 3.3.0.967583)",
+      "message": "Degradación del paquete detectada: Xamarin.Forms de 3.4.0.1009999 a 3.3.0.967583. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n MasterDetail.iOS -> MasterDetail -> Xamarin.Forms (>= 3.4.0.1009999) \r\n MasterDetail.iOS -> Xamarin.Forms (>= 3.3.0.967583)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",

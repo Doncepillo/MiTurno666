@@ -28,17 +28,46 @@ namespace MasterDetail
         private async Task GrillaTurnosAsync()
         {
             waitActivityIndicator.IsRunning = true;
-            string response = await Service.GetAllApi("api/TraceabilityWorkShift?id="+em.Id.ToString());
+            try
+            {
+                using (var datos = new DataAccess())
+                {
+                    List<TraceabilityWorkShift> turnosTomados = new List<TraceabilityWorkShift>();
+                    turnosTomados = datos.GetTrazas();
+                    if (Mis_Turnos.ItemsSource == null || turnosTomados.Count == 0)
+                    {
+                        string response = await Service.GetAllApi("api/TraceabilityWorkShiftsByEmpaque?id=" + em.Id.ToString());
 
-            List<TraceabilityWorkShift> Mturnos = JsonConvert.DeserializeObject<List<TraceabilityWorkShift>>(response);
-            waitActivityIndicator.IsRunning = false;
+                        List<TraceabilityWorkShift> Mturnos = JsonConvert.DeserializeObject<List<TraceabilityWorkShift>>(response);
 
-            Mis_Turnos.ItemsSource = Mturnos;
+                        waitActivityIndicator.IsRunning = false;
+
+                        
+
+                        foreach (TraceabilityWorkShift item in Mturnos)
+                        {
+                            datos.InsertTraza(item);
+                        }
+
+                        Mis_Turnos.ItemsSource = Mturnos;
+                    }
+                    else
+                    {
+                        Mis_Turnos.ItemsSource = turnosTomados;
+                    }
+
+                }
+            }
+            catch (Exception ex)
+            {
+                waitActivityIndicator.IsRunning = false;
+                await DisplayAlert("Error", "Fallo la conexion a bd :  " + ex, "ok");
+            }
         }
 
         private async void RegalarTurno_Clicked(object sender, EventArgs e)
         {
-            
+
             TraceabilityWorkShift turnoRegalado = (TraceabilityWorkShift)sender;
 
             HttpResponseMessage response = await Service.Delete("api/TraceabilityWorkShift/" + turnoRegalado.Id);

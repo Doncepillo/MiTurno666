@@ -45,6 +45,7 @@ namespace MasterDetail
 
                 EmpaqueModel empaque = new EmpaqueModel() { Email = Email.Text, Password = Pass.Text };
 
+            try { 
                 HttpResponseMessage response = await Service.Post("api/User/Authenticate", empaque);
 
                 if (response.StatusCode != System.Net.HttpStatusCode.NotFound)
@@ -70,7 +71,11 @@ namespace MasterDetail
                     waitActivityIndicator.IsRunning = false;
                     await DisplayAlert("Error de Acceso", "Informacion de usuario no corresponde", "Ok");
                 }
+            }catch(Exception ex) { 
                     waitActivityIndicator.IsRunning = false;
+                await DisplayAlert("Error de Acceso", "Compruebe conexion a internet   "+ex, "Ok");
+
+            }
         } 
 
         private void Btn_Register(object sender, EventArgs e)

@@ -6,34 +6,32 @@
              Title="Mis Turnos">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout>
+            <StackLayout HeightRequest="300">
                 <ActivityIndicator x:Name="waitActivityIndicator" HorizontalOptions="Center" VerticalOptions="Center"/>
                     <ListView x:Name="Mis_Turnos"  HasUnevenRows="True" BackgroundColor="Transparent">
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell  x:Name="cvturno">
                                     <Grid Margin="0,0,0,30">
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="*"/>
-                                            <ColumnDefinition Width="*"/>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
                                             <ColumnDefinition Width="*"/>
                                         </Grid.ColumnDefinitions>
-                                        <Grid.RowDefinitions>
-                                            <RowDefinition Height="*"/>
-                                            <RowDefinition Height="*"/>
-                                            <RowDefinition Height="*"/>
-                                        </Grid.RowDefinitions>
-                                        <Image Grid.Column="0" Grid.RowSpan="4" HeightRequest="150" VerticalOptions="Center" HorizontalOptions="Start" Source="asignarturno.png"/>
-                                        <Label Text="Estado: "  HorizontalOptions="Start" Font="Bold, 14" VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="1" />
-                                        <Label Text="cantidad Efectiva: " HorizontalOptions="Start" Font="Bold, 14" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="1"/>
-                                        <Label Text="ID usuario: " HorizontalOptions="Start" Font="Bold, 14" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="1" />
-                                        <Label Text="ID Turno: " HorizontalOptions="Start" Font="Bold, 14" VerticalTextAlignment="Center" Grid.Row="3" Grid.Column="1" />
-                                        <Button x:Name="IntercambiarTurno" Text="Intercambiar Turno" Font="Bold, 14" HorizontalOptions="Start" VerticalOptions="Center" Grid.Row="4" Grid.Column="1" Clicked="IntercambiarTurno_Clicked" />
-                                        <Label x:Name="TurnState" Grid.Column="2" Grid.Row="0" Font="Bold, 14" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Text="{Binding ActualState}"/>
-                                        <Label x:Name="TurnDate" Grid.Column="2" Grid.Row="1" Font="Bold, 14" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Text="{Binding EfectiveQuantity}"/>
-                                        <Label x:Name="Initiation" Grid.Column="2" Grid.Row="2" Font="Bold, 14" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Text="{Binding UserID}"/>
-                                        <Label x:Name="Finished" Grid.Column="2" Grid.Row="3" Font="Bold, 14" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Text="{Binding Id_Wor}"/>
-                                        <Button x:Name="RegalarTurno" Clicked="RegalarTurno_Clicked" Grid.Column="2" Grid.Row="4" Font="Bold, 14" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Text="Regalar Turno"/>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Label Text="Estado: "  HorizontalOptions="Start" Font="Bold, 14" VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="0" />
+                                        <Label Text="cantidad Efectiva: " HorizontalOptions="Start" Font="Bold, 14" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="0"/>
+                                        <Label Text="ID usuario: " HorizontalOptions="Start" Font="Bold, 14" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="0" />
+                                        <Label Text="ID Turno: " HorizontalOptions="Start" Font="Bold, 14" VerticalTextAlignment="Center" Grid.Row="3" Grid.Column="0" />
+                                        <Button x:Name="IntercambiarTurno" Text="Intercambiar Turno" Font="Bold, 14" HorizontalOptions="Start" VerticalOptions="Center" Grid.Row="4" Grid.Column="2" Clicked="IntercambiarTurno_Clicked" />
+                                    <Label x:Name="ActualState" Grid.Column="1" Grid.Row="0" Font="Bold, 14" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Text="{Binding ActualState}"/>
+                                    <Label x:Name="EfectiveQuantity" Grid.Column="1" Grid.Row="1" Font="Bold, 14" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Text="{Binding EfectiveQuantity}"/>
+                                    <Label x:Name="UserID" Grid.Column="1" Grid.Row="2" Font="Bold, 14" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Text="{Binding UserID}"/>
+                                    <Label x:Name="Id_Wor" Grid.Column="1" Grid.Row="3" Font="Bold, 14" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Text="{Binding Id_Wor}"/>
+                                        <Button x:Name="RegalarTurno" Clicked="RegalarTurno_Clicked"  Grid.Column="1" Grid.Row="4" Font="Bold, 14" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Text="Regalar Turno"/>
                                     </Grid>    
                                 </ViewCell>
                             </DataTemplate>
