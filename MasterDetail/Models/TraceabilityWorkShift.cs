@@ -1,9 +1,7 @@
-﻿
-namespace MasterDetail
+﻿namespace MasterDetail
 {
     using System;
     using System.Collections.Generic;
-
     using System.Globalization;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
@@ -11,7 +9,6 @@ namespace MasterDetail
 
     public partial class TraceabilityWorkShift
     {
-        
         [PrimaryKey, AutoIncrement]
         [JsonProperty("ID")]
         public int Id { get; set; }
@@ -23,10 +20,10 @@ namespace MasterDetail
         public int EffectiveQuantity { get; set; }
 
         [JsonProperty("UserID")]
-        public int UserId { get; set; }
+        public int UserID { get; set; }
 
         [JsonProperty("Id_Wor")]
-        public int IdWor { get; set; }
+        public int Id_Wor { get; set; }
     }
 
     public partial class TraceabilityWorkShift

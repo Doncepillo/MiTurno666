@@ -103,8 +103,8 @@ namespace MasterDetail
                 Id = 0,
                 ActualState = "0",
                 EffectiveQuantity = 1,
-                IdWor = item.Id,
-                UserId = empaq.Id
+                Id_Wor = item.Id,
+                UserID = empaq.Id
             };
 
             if (CrossConnectivity.Current.IsConnected)
@@ -118,6 +118,7 @@ namespace MasterDetail
                 {
                     datos.InsertTraza(turnotomado);
                 }
+
                 return;
             }
             

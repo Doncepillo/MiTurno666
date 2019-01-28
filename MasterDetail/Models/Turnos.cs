@@ -42,7 +42,6 @@ namespace MasterDetail
 
         [JsonProperty("Calification")]
         public long Calification { get; set; }
-
     }
 
     public partial class Turnos

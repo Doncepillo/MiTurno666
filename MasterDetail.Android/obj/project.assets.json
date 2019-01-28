@@ -652,11 +652,10 @@
       ]
     },
     "Newtonsoft.Json/12.0.1": {
-      "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "sha512": "jmVyoEyk0In8r+AObYQyFKVFm7uSRzE0XSHSbEtBJcZDMV6DqJoyB4FLcHwprPVhAh826so0db3DIKXVnpGoPA==",
       "type": "package",
       "path": "newtonsoft.json/12.0.1",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
@@ -724,11 +723,10 @@
       ]
     },
     "Xam.Plugin.Connectivity/3.2.0": {
-      "sha512": "ZV45TaBTCJg7XQNEl3fPyyJcuMMhdDEQ6BCLc/5pMuTv38M226ER0WTu5sbmba8jlliDuzeRqkRFHwrGdWAgyg==",
+      "sha512": "V0IKUjLnWO4zl1VI/7Keclez5kk21PIpVUqacbMtbl1Ky7PrUNUOrO8Xmfrxn5E38ihzrmgGpuC6TXCwL3Sl+Q==",
       "type": "package",
       "path": "xam.plugin.connectivity/3.2.0",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.dll",
         "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.pdb",
@@ -1515,34 +1513,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\exe_6\\.nuget\\packages\\": {}
+    "/Users/Toga/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail.Android\\MasterDetail.Android.csproj",
+      "projectUniqueName": "/Users/Toga/Desktop/ddd/MiTurno/MasterDetail.Android/MasterDetail.Android.csproj",
       "projectName": "MasterDetail.Android",
-      "projectPath": "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail.Android\\MasterDetail.Android.csproj",
-      "packagesPath": "C:\\Users\\exe_6\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail.Android\\obj\\",
+      "projectPath": "/Users/Toga/Desktop/ddd/MiTurno/MasterDetail.Android/MasterDetail.Android.csproj",
+      "packagesPath": "/Users/Toga/.nuget/packages/",
+      "outputPath": "/Users/Toga/Desktop/ddd/MiTurno/MasterDetail.Android/obj",
       "projectStyle": "PackageReference",
-      "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\exe_6\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/Toga/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail\\MasterDetail.csproj": {
-              "projectPath": "C:\\Users\\exe_6\\Desktop\\miturno\\MiTurno666\\MasterDetail\\MasterDetail.csproj"
+            "/Users/Toga/Desktop/ddd/MiTurno/MasterDetail/MasterDetail.csproj": {
+              "projectPath": "/Users/Toga/Desktop/ddd/MiTurno/MasterDetail/MasterDetail.csproj"
             }
           }
         }
