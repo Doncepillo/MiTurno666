@@ -19,13 +19,14 @@ namespace MasterDetail
     public partial class Turnos
     {
         [JsonProperty("ID")]
-        public long Id { get; set; }
+        public int Id { get; set; }
 
         [JsonProperty("Initiation")]
         public DateTime Initiation { get; set; }
 
         [JsonProperty("Finished")]
-        public DateTime Finished { get; set; } 
+        public DateTime Finished { get; set; }
+         
         [JsonProperty("TurnDate")]
         public DateTime TurnDate { get; set; }
 
@@ -41,7 +42,6 @@ namespace MasterDetail
 
         [JsonProperty("Calification")]
         public long Calification { get; set; }
-
     }
 
     public partial class Turnos

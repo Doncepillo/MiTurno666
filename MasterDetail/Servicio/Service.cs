@@ -65,5 +65,36 @@ namespace MasterDetail.Servicio
                 return (json);
             }
         }
+
+        public static async Task<HttpResponseMessage> Put(string path, Object objeto)
+        {
+            var url = new Uri($"{BASE}/{path}");
+
+            HttpResponseMessage response;
+
+            using (var httpClient = new HttpClient())
+            {
+                response = await httpClient.PutAsync(url,
+                                                        new StringContent(
+                                                            Newtonsoft.Json.JsonConvert.SerializeObject(objeto),
+                                                            Encoding.UTF8,
+                                                            "application/json")
+                                                     );
+            }
+
+            return response;
+        }
+        public static async Task<HttpResponseMessage>Delete(string path)
+        {
+            var url = new Uri($"{BASE}/{path}");
+
+            HttpResponseMessage response = new HttpResponseMessage();
+            using(var httpclient = new HttpClient())
+            {
+               response = await httpclient.DeleteAsync(url);
+            }
+
+            return response;
+        }
     }
 }

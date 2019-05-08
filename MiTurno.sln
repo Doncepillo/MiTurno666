@@ -90,6 +90,7 @@ Global
 		{78D78764-E33B-4D1E-9D80-60D9B4981ED6}.AppStore|iPhoneSimulator.Deploy.0 = Release|Any CPU
 		{78D78764-E33B-4D1E-9D80-60D9B4981ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{78D78764-E33B-4D1E-9D80-60D9B4981ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D78764-E33B-4D1E-9D80-60D9B4981ED6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{78D78764-E33B-4D1E-9D80-60D9B4981ED6}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{78D78764-E33B-4D1E-9D80-60D9B4981ED6}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{78D78764-E33B-4D1E-9D80-60D9B4981ED6}.Debug|iPhone.Deploy.0 = Debug|Any CPU
@@ -111,5 +112,11 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D66031D9-ABFC-42E6-82EA-B8F546E9D0B8}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.VersionControlPolicy = $2
 	EndGlobalSection
 EndGlobal

@@ -10,6 +10,7 @@ namespace MasterDetail
         public MiRendimiento()
         {
             InitializeComponent();
+            NavigationPage.SetBackButtonTitle(this, "MiTurnoAPP");
         }
     }
 }

@@ -1,18 +1,17 @@
 ﻿<Properties StartupConfiguration="{F279D0F5-50E6-4067-A0E0-16F54C617FBA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MasterDetail/Views/Login.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../.nuget/packages/xamarin.forms/3.4.0.1009999/build/Xamarin.Forms.targets">
     <Files>
-      <File FileName="MasterDetail/Views/Login.xaml" Line="34" Column="39" />
-      <File FileName="MasterDetail/Views/User/MiPerfil.xaml" Line="19" Column="13" />
-      <File FileName="MasterDetail/Views/App.xaml.cs" Line="22" Column="60" />
-      <File FileName="MasterDetail/obj/Debug/netstandard2.0/Views/User/MiPerfil.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="MasterDetail/Views/MainPage.xaml.cs" Line="19" Column="61" />
+      <File FileName="MasterDetail/Views/Login.xaml" Line="42" Column="1" />
+      <File FileName="../../../.nuget/packages/xamarin.forms/3.4.0.1009999/build/Xamarin.Forms.targets" Line="71" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MasterDetail" expanded="True">
             <Node name="MasterDetail" expanded="True">
-              <Node name="Servicio" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="Views" expanded="True">
                 <Node name="Login.xaml" selected="True" />
               </Node>
@@ -23,11 +22,14 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MasterDetail.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9EE579F0-85C8-402F-81C2-7AE91EA6CB6D" />
+  <MonoDevelop.Ide.ItemProperties.MasterDetail.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9EE579F0-85C8-402F-81C2-7AE91EA6CB6D" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.MasterDetail.Android PreferredExecutionTarget="Android.android" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <RunToCursorBreakpoint file="/Users/Toga/.nuget/packages/xamarin.forms/3.4.0.1009999/build/Xamarin.Forms.targets" line="71" column="10" />
+      <Breakpoint file="/Users/Toga/.nuget/packages/xamarin.forms/3.4.0.1009999/build/Xamarin.Forms.targets" line="71" column="10" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
