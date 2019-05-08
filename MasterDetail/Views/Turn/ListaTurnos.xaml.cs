@@ -34,11 +34,9 @@ namespace MasterDetail
 
             try
             {
-                using(var datos= new DataAccess())
-                {
-                    List<Turnos> lista = datos.GetTurnos();
-                    if (lista == null||lista.Count==0)
-                    {
+                
+                   
+                   
                         string response = await Service.GetAllApi("api/turn");
 
                         List<Turnos> turnos = JsonConvert.DeserializeObject<List<Turnos>>(response);
@@ -47,20 +45,8 @@ namespace MasterDetail
 
                         LV_Turnos.ItemsSource = turnos;
                         
-                            foreach (var item in turnos)
-                            {
-                                Turnos turn = new Turnos();
-                                turn = item;
-                                datos.InsertTurno(turn);
-                            }
-                    }
-
-                    else
-                    {
-                        LV_Turnos.ItemsSource = datos.GetTurnos();
-                        gTurnos = datos.GetTurnos();
-                    }
-                }
+                   
+                
             }
 
             catch (Exception ex)
@@ -114,11 +100,7 @@ namespace MasterDetail
             else
 
             {
-                using (var datos = new DataAccess())
-                {
-                    datos.InsertTraza(turnotomado);
-                }
-
+                
                 return;
             }
             

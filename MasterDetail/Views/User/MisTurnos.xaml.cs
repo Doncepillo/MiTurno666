@@ -31,10 +31,9 @@ namespace MasterDetail
 
             try
             {
-                using (var datos = new DataAccess())
-                {
+                
                     List<TraceabilityWorkShift> turnosTomados = new List<TraceabilityWorkShift>();
-                    turnosTomados = datos.GetTrazas();
+                    
                     if (Mis_Turnos.ItemsSource == null || turnosTomados.Count == 0)
                     {
                         string response = await Service.GetAllApi("api/TraceabilityWorkShiftsByEmpaque?Id=" + em.Id.ToString());
@@ -43,10 +42,7 @@ namespace MasterDetail
 
                         waitActivityIndicator.IsRunning = false;
 
-                        foreach (TraceabilityWorkShift item in Mturnos)
-                        {
-                            datos.InsertTraza(item);
-                        }
+                       
 
                         Mis_Turnos.ItemsSource = Mturnos;
                     }
@@ -55,7 +51,7 @@ namespace MasterDetail
                     {
                         Mis_Turnos.ItemsSource = turnosTomados;
                     }
-                }
+                
             }
 
             catch (Exception ex)

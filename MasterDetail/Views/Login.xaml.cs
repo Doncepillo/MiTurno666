@@ -53,13 +53,7 @@ namespace MasterDetail
                     var empty = await Service.GetOneApi("api/User/Authenticate", empaque);
                     EmpaqueModel emp = JsonConvert.DeserializeObject<EmpaqueModel>(empty.ToString());
                     
-                    if (remenberMeSwitch.IsToggled) 
-                    {
-                        using (var datos = new DataAccess())
-                        {
-                            datos.InsertEmpaque(emp); 
-                        }
-                    }
+                    
 
                     waitActivityIndicator.IsRunning = false;
 

@@ -5,11 +5,11 @@
     using System.Globalization;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
-    using SQLite.Net.Attributes;
+
 
     public partial class TraceabilityWorkShift
     {
-        [PrimaryKey, AutoIncrement]
+       
         [JsonProperty("ID")]
         public int Id { get; set; }
 

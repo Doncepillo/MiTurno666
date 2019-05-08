@@ -11,10 +11,9 @@
 
   <ItemGroup>
     <PackageReference Include="Acr.UserDialogs" Version="7.0.1" />
-    <PackageReference Include="SQLite.Net-PCL" Version="3.1.1" />
     <PackageReference Include="Xam.Plugin.Connectivity" Version="3.2.0" />
-    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1009999" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Xamarin.Forms" Version="3.6.0.344457" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Detail.cs" />
@@ -2033,5 +2032,40 @@
     <Reference Include="Xamarin.iOS" />
     <Reference Include="Xamarin.iOS" />
     <Reference Include="Java.Interop" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Views\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Detail.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Login.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Master.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Turn\ListaTurnos.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\User\MiPerfil.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\User\MiRendimiento.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\User\MisNotificaciones.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\User\MisTurnos.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\User\Register.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
   </ItemGroup>
 </Project>

@@ -47,10 +47,7 @@ namespace MasterDetail
 
         private async void BtnCerrarSesion_Clicked(object sender, EventArgs e)
         {
-            using (var datos = new DataAccess())
-            {
-                datos.DeleteEmpaque(this.empaque);
-            }
+            
 
             await Navigation.PushAsync(new Login());
         }

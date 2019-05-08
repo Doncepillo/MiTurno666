@@ -14,19 +14,11 @@ namespace MasterDetail
         {
             InitializeComponent();
 
-            using (var datos = new DataAccess())
-            {
-                var empaque = datos.GetEmpaques().FirstOrDefault();
-                if(empaque!= null)
-                {
-                    MainPage = new NavigationPage(new MainPage(empaque));
-                }
-                else
-                {
+            
                     MainPage = new NavigationPage(new Login());
 
-                }
-            }
+                
+            
         }
 
         protected override void OnStart()
